@@ -4,6 +4,11 @@
   background: $blue;
   color: $white;
   @include grayscale;
+  padding: 50px 0;
+
+  @media screen and (min-width: $break-large) {
+    padding: 100px 0;
+  }
 
   p {
     font-size: 20px;

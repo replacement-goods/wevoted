@@ -42,14 +42,16 @@
 
 .introImage {
   margin-top: -220px;
-  
+
   @media screen and (min-width: $break-large) {
     margin-top: -440px;
+    max-width: 1010px;
+    float: right;
   }
 }
 
 .imageContainer {
   @media screen and (min-width: $break-large) {
-    text-align: right;
+    height: 120px;
   }
 }
