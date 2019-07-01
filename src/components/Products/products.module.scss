@@ -1,0 +1,26 @@
+@import '../../shared.scss';
+
+.productsContainer {
+
+  .greenBackground {
+    position: relative;
+    background: $green;
+    z-index: 0;
+
+    @media screen and (min-width: $break-large) {
+      padding-bottom: 200px;
+    }
+  }
+}
+
+.productsImage {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+
+  @media screen and (min-width: $break-large) {
+    margin: -200px auto 0 auto;
+    max-width: 1000px;
+  }
+}

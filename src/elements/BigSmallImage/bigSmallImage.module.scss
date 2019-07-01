@@ -1,0 +1,17 @@
+@import '../../shared.scss';
+
+.bigImage {
+  display: none;
+
+  @media screen and (min-width: $break-large) {
+    display: block;
+  }
+}
+
+.smallImage {
+  display: block;
+
+  @media screen and (min-width: $break-large) {
+    display: none;
+  }
+}

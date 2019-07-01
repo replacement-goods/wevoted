@@ -1,0 +1,34 @@
+@import '../../shared.scss';
+
+.problemContainer {
+  h3 {
+    position: relative;
+    z-index: 1;
+
+    @media screen and (min-width: $break-large) {
+      margin-bottom: 163px;
+    }
+  }
+}
+
+.problemImage {
+  position: relative;
+  z-index: 0;
+  margin-top: -60px;
+
+  @media screen and (min-width: $break-large) {
+    position: relative;
+    z-index: 0;
+    max-width: 647px;
+    margin: -133px auto 0 auto;
+  }
+}
+
+.thumbsDownImage {
+  margin-top: 40px;
+
+  @media screen and (min-width: $break-large) {
+    max-width: 753px;
+    margin: 39px auto 0 auto;
+  }
+}
