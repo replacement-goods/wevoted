@@ -21,6 +21,17 @@ const Products = () => {
         smallImageUrl={products}
         className={styles.productsImage}
       />
+      <InnerContainer>
+        <ul className={styles.productList}>
+          <li>DISH SOAP</li>
+          <li>HAND SOAP</li>
+          <li>BAR SOAP</li>
+          <li>ALL PURPOSE & WINDOW CLEANERS</li>
+          <li>DISHWASHER PODS</li>
+          <li>LAUNDRY PODS</li>
+          <li>13 & 30 GALLON GARBAGE BAGS</li>
+        </ul>
+      </InnerContainer>
     </div>
   );
 };
