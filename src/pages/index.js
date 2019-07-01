@@ -10,6 +10,7 @@ import CallToAction from '../components/CallToAction';
 import Solution from '../components/Solution';
 import Products from '../components/Products';
 import Subscription from '../components/Subscription';
+import About from '../components/About';
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <Solution />
     <Products />
     <Subscription />
+    <About />
     <CallToAction />
   </Layout>
 );

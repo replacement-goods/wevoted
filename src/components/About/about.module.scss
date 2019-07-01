@@ -1,0 +1,22 @@
+@import '../../shared.scss';
+
+.aboutContainer {
+  background: $blue;
+  color: $white;
+  @include grayscale;
+
+  p {
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0 0 26px 0;
+
+    &.bold {
+      font-weight: 700;
+    }
+
+    @media screen and (min-width: $break-large) {
+      font-size: 26px;
+      line-height: 39px;
+    }
+  }
+}
