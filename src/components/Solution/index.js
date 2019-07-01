@@ -4,6 +4,8 @@ import InnerContainer from '../../elements/InnerContainer';
 import mitch from '../../images/mitch.png';
 import mitchLarge from '../../images/mitch-large.png';
 import BigSmallImage from '../../elements/BigSmallImage';
+import happyFace from '../../images/happy-face.png';
+import happyFaceLarge from '../../images/happy-face-large.png';
 
 const Solution = () => {
   return (
@@ -20,6 +22,11 @@ const Solution = () => {
         bigImageUrl={mitchLarge}
         smallImageUrl={mitch}
         className={styles.solutionImage}
+      />
+      <BigSmallImage
+        bigImageUrl={happyFaceLarge}
+        smallImageUrl={happyFace}
+        className={styles.happyFaceImage}
       />
     </div>
   );

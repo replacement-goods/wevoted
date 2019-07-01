@@ -6,6 +6,7 @@
     position: relative;
     background: $green;
     z-index: 0;
+    padding-bottom: 150px;
 
     @media screen and (min-width: $break-large) {
       padding-bottom: 200px;
@@ -14,8 +15,9 @@
 }
 
 .productsImage {
-  margin: 0;
+  display: block;
   width: 100%;
+  margin-top: -150px;
   position: relative;
   z-index: 1;
 
