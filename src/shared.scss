@@ -18,6 +18,8 @@ button {
 body {
   margin: 0;
   overscroll-behavior: none;
+  font-family: $sans;
+  font-weight: 400;
 }
 
 a {
@@ -27,4 +29,47 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 35px;
+}
+
+/* color classes */
+
+.white-text {
+  color: $white;
+}
+
+.red-background {
+  background: $red;
+}
+
+.dark-red-text {
+  color: $dark-red;
+}
+
+.blue-background {
+  background: $blue;
+}
+
+.dark-blue-text {
+  color: $dark-blue;
+}
+
+.green-background {
+  background: $green;
+}
+
+.dark-green-text {
+  color: $dark-green;
+}
+
+.pink-background {
+  background: $pink;
+}
+
+.dark-pink-text {
+  color: $dark-pink;
 }

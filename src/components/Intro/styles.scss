@@ -1,5 +1,40 @@
 @import '../../shared.scss';
 
 .introSection {
-  background: $blue;
+  @include grayscale;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+
+  @media screen and (min-width: $break-large) {
+    max-width: 360px;
+  }
+}
+
+.tagline {
+  font-family: $serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 21px;
+  color: $white;
+  margin-top: 21px;
+  padding-bottom: 220px;
+
+  @media screen and (min-width: $break-large) {
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 48px;
+    padding-bottom: 0;
+  }
+}
+
+.introImage {
+  margin-top: -220px;
+
+  @media screen and (min-width: $break-large) {
+    margin-top: 0;
+  }
 }

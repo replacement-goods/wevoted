@@ -6,14 +6,20 @@ import SEO from '../components/seo';
 import Intro from '../components/Intro';
 import Press from '../components/Press';
 import Problem from '../components/Problem';
+import CallToAction from '../components/CallToAction';
+import Solution from '../components/Solution';
+import Products from '../components/Products';
+import Subscription from '../components/Subscription';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="We Voted to Unseat Terrible Right Wind Politicians" />
     <Intro />
-    <Press />
     <Problem />
-    <Link to="/page-2/">Go to page 2</Link>
+    <Solution />
+    <Products />
+    <Subscription />
+    <CallToAction />
   </Layout>
 );
 
