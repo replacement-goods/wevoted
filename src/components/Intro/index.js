@@ -1,19 +1,23 @@
 import React from 'react';
-import './styles.scss';
+import styles from './intro.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import bottle from '../../images/bottle.png';
 import logoImage from '../../images/logo.png';
 
 const Intro = () => {
   return (
-    <div className="introSection">
-      <div className="blue-background">
+    <div className={styles.introSection}>
+      <div className={styles.blueBackground}>
         <InnerContainer>
-          <img alt="We Voted" className="logo" src={logoImage} />
-          <p className="tagline">...to unseat terrible<br />right-wing politicians.</p>
+          <div className={styles.textContainer}>
+            <img alt="We Voted" className={styles.logo} src={logoImage} />
+            <p className={styles.tagline}>...to unseat terrible<br />right-wing politicians.</p>
+          </div>
         </InnerContainer>
       </div>
-      <img className="introImage" src={bottle} />
+      <div className={styles.imageContainer}>
+        <img className={styles.introImage} src={bottle} />
+      </div>
     </div>
   );
 };
