@@ -5,6 +5,7 @@ import bottle from '../../images/bottle.png';
 import bottleLarge from '../../images/intro-large.png';
 import logoImage from '../../images/logo.png';
 import BigSmallImage from '../../elements/BigSmallImage';
+import CallToActionButton from '../../elements/CallToActionButton';
 
 const Intro = () => {
   return (
@@ -18,6 +19,7 @@ const Intro = () => {
               <br />
               right-wing politicians.
             </p>
+            <CallToActionButton />
           </div>
         </InnerContainer>
       </div>

@@ -2,6 +2,9 @@
 
 .introSection {
   @include grayscale;
+  position: relative;
+  z-index: 4;
+  background: $light-grey;
 }
 
 .textContainer {

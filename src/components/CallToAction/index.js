@@ -1,9 +1,10 @@
 import React from 'react';
 import './styles.scss';
+import CallToActionButton from '../../elements/CallToActionButton';
 
 const CallToAction = () => (
   <div className="ctaContainer">
-    <button className="ctaButton">Join Our Little Revolution</button>
+    <CallToActionButton withShadow={true} />
   </div>
 );
 
