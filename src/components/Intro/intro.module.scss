@@ -8,6 +8,7 @@
 }
 
 .textContainer {
+  padding-bottom: 220px;
 
   @media screen and (min-width: $break-large) {
     width: 50%;
@@ -33,7 +34,6 @@
   line-height: 21px;
   color: $white;
   margin-top: 21px;
-  padding-bottom: 220px;
 
   @media screen and (min-width: $break-large) {
     font-size: 23px;
@@ -56,5 +56,13 @@
 .imageContainer {
   @media screen and (min-width: $break-large) {
     height: 120px;
+  }
+}
+
+.ctaContainer {
+  display: none;
+
+  @media screen and (min-width: $break-large) {
+    display: block;
   }
 }

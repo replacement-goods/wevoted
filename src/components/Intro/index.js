@@ -19,7 +19,9 @@ const Intro = () => {
               <br />
               right-wing politicians.
             </p>
-            <CallToActionButton />
+            <div className={styles.ctaContainer}>
+              <CallToActionButton />
+            </div>
           </div>
         </InnerContainer>
       </div>
