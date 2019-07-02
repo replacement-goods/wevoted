@@ -16,6 +16,10 @@
   path {
     fill: $pink;
   }
+
+  @media screen and (min-width: $break-large) {
+    height: 20px;
+  }
 }
 
 .subscriptionImage {

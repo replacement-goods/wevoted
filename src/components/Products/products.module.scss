@@ -22,6 +22,10 @@
   path {
     fill: $green;
   }
+
+  @media screen and (min-width: $break-large) {
+    height: 20px;
+  }
 }
 
 .productsImage {

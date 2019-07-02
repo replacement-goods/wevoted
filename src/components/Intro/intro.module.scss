@@ -17,6 +17,10 @@
   path {
     fill: $blue;
   }
+
+  @media screen and (min-width: $break-large) {
+    height: 20px;
+  }
 }
 
 .textContainer {
