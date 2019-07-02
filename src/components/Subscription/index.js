@@ -24,6 +24,14 @@ const Subscription = () => {
           <h3 className={styles.whiteText}>By subscribing you are taking direct action to throw the bastards out.</h3>
         </InnerContainer>
       </div>
+      <svg
+        className={styles.edge}
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1920 20"
+        preserveAspectRatio="none"
+      >
+        <path d="M-.5,19.5V-.5h1920v20s-435-16-960-16S-.5,19.5-.5,19.5Z" transform="translate(0.5 0.5)"/>
+      </svg>
       <BigSmallImage
         bigImageUrl={subscriptionLarge}
         smallImageUrl={subscription}

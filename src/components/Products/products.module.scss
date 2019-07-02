@@ -14,6 +14,16 @@
   }
 }
 
+.edge {
+  display: block;
+  width: 100%;
+  height: 10px;
+
+  path {
+    fill: $green;
+  }
+}
+
 .productsImage {
   display: block;
   width: 100%;
