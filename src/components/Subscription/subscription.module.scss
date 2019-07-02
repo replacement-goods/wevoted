@@ -21,3 +21,41 @@
     margin-right: auto;
   }
 }
+
+.subscriptionOptions {
+  margin-bottom: 80px;
+  margin-top: -40px;
+  padding: 0 30px;
+
+  @media screen and (min-width: $break-large) {
+    padding: 0;
+    display: flex;
+    margin-bottom: 115px;
+    justify-content: center;
+  }
+}
+
+.option {
+  display: flex;
+  height: 72px;
+  border-radius: 36px;
+  background: $pink;
+  padding: 12px 36px;
+  margin: 10px auto;
+  color: $white;
+  @include grayscale;
+  max-width: 315px;
+
+  @media screen and (min-width: $break-large) {
+    margin: 0 18px;
+  }
+
+  h4 {
+    font-size: 39px;
+    margin: 0 90px 0 0;
+  }
+
+  p {
+    margin: 0;
+  }
+}

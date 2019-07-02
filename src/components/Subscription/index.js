@@ -5,6 +5,16 @@ import BigSmallImage from '../../elements/BigSmallImage';
 import subscription from '../../images/subscription.png';
 import subscriptionLarge from '../../images/subscription-large.png';
 
+const Option = ({ size, items, cost }) => (
+  <div className={styles.option}>
+    <h4>{size}</h4>
+    <div className={styles.features}>
+      <p>Any {items} products</p>
+      <p>{cost} / month</p>
+    </div>
+  </div>
+)
+
 const Subscription = () => {
   return (
     <div className={styles.subscriptionContainer}>
@@ -19,6 +29,11 @@ const Subscription = () => {
         smallImageUrl={subscription}
         className={styles.subscriptionImage}
       />
+      <div className={styles.subscriptionOptions}>
+        <Option size="S" items="3" cost="$24.99" />
+        <Option size="M" items="6" cost="$44.99" />
+        <Option size="L" items="9" cost="$64.99" />
+      </div>
     </div>
   );
 };
