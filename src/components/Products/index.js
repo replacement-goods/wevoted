@@ -31,6 +31,12 @@ const Products = () => {
           <li>LAUNDRY PODS</li>
           <li>13 & 30 GALLON GARBAGE BAGS</li>
         </ul>
+        <ul className={styles.productFeatures}>
+          <li>All Natural</li>
+          <li>Made in the USA</li>
+          <li>Recycled Packaging</li>
+          <li>Ethically Sourced</li>
+        </ul>
       </InnerContainer>
     </div>
   );

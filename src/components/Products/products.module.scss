@@ -47,3 +47,26 @@
     }
   }
 }
+
+.productFeatures {
+  list-style: none;
+  margin: 70px auto 40px auto;
+  padding: 20px;
+  text-indent: 0;
+  columns: auto 2;
+  background: $white;
+  border-radius: 4px;
+  max-width: 430px;
+  color: $black-blue;
+
+  li {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 20px;
+    background-image: url('../../images/checkmark.svg');
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-position: left center;
+  }
+}
