@@ -18,16 +18,12 @@ const Problem = () => {
           </h3>
         </InnerContainer>
       </div>
-      <BigSmallImage
-        bigImageUrl={devinNunesLarge}
-        smallImageUrl={devinNunes}
-        className={styles.problemImage}
-      />
-      <BigSmallImage
-        bigImageUrl={thumbsDownLarge}
-        smallImageUrl={thumbsDown}
-        className={styles.thumbsDownImage}
-      />
+      <div className={styles.problemImage}>
+        <img src={devinNunes} />
+      </div>
+      <div className={styles.thumbsDownImage}>
+        <img src={thumbsDown} />
+      </div>
     </div>
   );
 };

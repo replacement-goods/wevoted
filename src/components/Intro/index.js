@@ -33,12 +33,8 @@ const Intro = () => {
       >
         <path d="M-.5,19.5V-.5h1920v20s-435-16-960-16S-.5,19.5-.5,19.5Z" transform="translate(0.5 0.5)"/>
       </svg>
-      <div className={styles.imageContainer}>
-        <BigSmallImage
-          bigImageUrl={bottleLarge}
-          smallImageUrl={bottle}
-          className={styles.introImage}
-        />
+      <div className={styles.introImage}>
+        <img src={bottle} />
       </div>
     </div>
   );
