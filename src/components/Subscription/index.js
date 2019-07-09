@@ -12,7 +12,7 @@ const Subscription = () => {
       </div>
       <div className={styles.greenBackground}>
         <InnerContainer>
-          <h3 className={styles.whiteText}>This is our basic box $24.99 per month.</h3>
+          <h3 className={styles.whiteText}>This is our basic box<br />$24.99 per month.</h3>
           <h3 className={styles.darkGreenText}>It contains hand soap, dish soap, laundry detergent pods and kitchen garbage bags.</h3>
           <h3 className={styles.whiteText}>You can order it now from our IndieGoGo campaign.</h3>
         </InnerContainer>
