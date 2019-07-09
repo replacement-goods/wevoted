@@ -9,12 +9,14 @@ import Products from '../components/Products';
 import Subscription from '../components/Subscription';
 import About from '../components/About';
 import Menu from '../components/Menu';
+import Press from '../components/Press';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="We Voted to Unseat Terrible Right Wind Politicians" />
     <Menu />
     <Intro />
+    <Press />
     <Problem />
     <Solution />
     <Products />

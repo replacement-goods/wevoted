@@ -1,0 +1,17 @@
+@import '../../shared.scss';
+
+.pressContainer {
+  background: $light-grey;
+  margin-top: -6rem;
+  position: relative;
+  z-index: 0;
+
+  blockquote {
+    font-family: $serif;
+    font-size: 1.6rem;
+    color: $black-blue;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+}

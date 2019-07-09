@@ -1,9 +1,9 @@
 import React from 'react';
-import './styles.scss';
+import styles from './ic.module.scss';
 
 const InnerContainer = ({ children }) => {
   return (
-    <div className="innerContainer">
+    <div className={styles.innerContainer}>
       {children}
     </div>
   );
