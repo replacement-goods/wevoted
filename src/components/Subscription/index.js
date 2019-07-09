@@ -4,16 +4,6 @@ import InnerContainer from '../../elements/InnerContainer';
 import subscription from '../../images/subscription.png';
 import theBox from '../../images/theBox.png';
 
-const Option = ({ size, items, cost }) => (
-  <div className={styles.option}>
-    <h4>{size}</h4>
-    <div className={styles.features}>
-      <p>Any {items} products</p>
-      <p>{cost} / month</p>
-    </div>
-  </div>
-)
-
 const Subscription = () => {
   return (
     <div className={styles.subscriptionContainer}>
@@ -22,8 +12,9 @@ const Subscription = () => {
       </div>
       <div className={styles.greenBackground}>
         <InnerContainer>
-          <h3 className={styles.darkGreenText}>When we launch in the fall we'll be offering our products in monthly subscription boxes.</h3>
-          <h3 className={styles.whiteText}>By subscribing you are taking direct action to throw the bastards out.</h3>
+          <h3 className={styles.whiteText}>This is our basic box $24.99 per month.</h3>
+          <h3 className={styles.darkGreenText}>It contains hand soap, dish soap, laundry detergent pods and kitchen garbage bags.</h3>
+          <h3 className={styles.whiteText}>You can order it now from our IndieGoGo campaign.</h3>
         </InnerContainer>
       </div>
       <svg
@@ -36,11 +27,6 @@ const Subscription = () => {
       </svg>
       <div className={styles.subscriptionImage}>
         <img src={subscription} />
-      </div>
-      <div className={styles.subscriptionOptions}>
-        <Option size="S" items="3" cost="$24.99" />
-        <Option size="M" items="6" cost="$44.99" />
-        <Option size="L" items="9" cost="$64.99" />
       </div>
     </div>
   );
