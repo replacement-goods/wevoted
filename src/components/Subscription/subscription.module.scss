@@ -1,6 +1,10 @@
 @import '../../shared.scss';
 
 .subscriptionContainer {
+  .greenBackground {
+    background: $green;
+    padding-top: 60rem;
+  }
   h3:last-child {
     position: relative;
     z-index: 1;
@@ -14,8 +18,16 @@
   height: 1rem;
 
   path {
-    fill: $pink;
+    fill: $green;
   }
+}
+
+.boxImage {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  margin-bottom: -60rem;
 }
 
 .subscriptionImage {
