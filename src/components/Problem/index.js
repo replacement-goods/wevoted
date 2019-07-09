@@ -16,6 +16,7 @@ const Problem = () => {
             <span class={styles.darkRedText}>The home products you buy</span> support the
             right-wing politicians you hate.
           </h3>
+          <h3 className={styles.whiteText}><a href="#">Get the facts.</a></h3>
         </InnerContainer>
       </div>
       <div className={styles.problemImage}>

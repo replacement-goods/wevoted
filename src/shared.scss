@@ -44,7 +44,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-  
+
   /* this is pretty lame, but it works for now */
   margin-top: -1px;
 }
@@ -54,6 +54,15 @@ h3 {
   line-height: 3.5rem;
   font-weight: 700;
   text-align: center;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      color: $light-green;
+    }
+  }
 }
 
 /* color classes */
