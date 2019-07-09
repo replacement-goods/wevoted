@@ -2,10 +2,7 @@ import React from 'react';
 import styles from './solution.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import mitch from '../../images/mitch.png';
-import mitchLarge from '../../images/mitch-large.png';
-import BigSmallImage from '../../elements/BigSmallImage';
 import happyFace from '../../images/happy-face.png';
-import happyFaceLarge from '../../images/happy-face-large.png';
 
 const Solution = () => {
   return (

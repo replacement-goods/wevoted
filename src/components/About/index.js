@@ -2,8 +2,6 @@ import React from 'react';
 import InnerContainer from '../../elements/InnerContainer';
 import styles from './about.module.scss';
 import join from '../../images/join.png';
-import joinLarge from '../../images/join-large.png';
-import BigSmallImage from '../../elements/BigSmallImage';
 
 const About = () => {
   return (

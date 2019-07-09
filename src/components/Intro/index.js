@@ -2,9 +2,7 @@ import React from 'react';
 import styles from './intro.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import bottle from '../../images/bottle.png';
-import bottleLarge from '../../images/intro-large.png';
 import logoImage from '../../images/logo.png';
-import BigSmallImage from '../../elements/BigSmallImage';
 import CallToActionButton from '../../elements/CallToActionButton';
 
 const Intro = () => {

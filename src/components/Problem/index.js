@@ -2,10 +2,7 @@ import React from 'react';
 import styles from './problem.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import devinNunes from '../../images/devin-nunes.png';
-import devinNunesLarge from '../../images/devin-nunes-large.png';
 import thumbsDown from '../../images/thumbs-down.png';
-import thumbsDownLarge from '../../images/thumbs-down-large.png';
-import BigSmallImage from '../../elements/BigSmallImage';
 
 const Problem = () => {
   return (
