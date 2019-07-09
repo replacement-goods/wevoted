@@ -10,6 +10,7 @@ import Subscription from '../components/Subscription';
 import About from '../components/About';
 import Menu from '../components/Menu';
 import Press from '../components/Press';
+import SuperPAC from '../components/SuperPAC';
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <Solution />
     <Products />
     <Subscription />
+    <SuperPAC />
     <About />
     <CallToAction />
   </Layout>

@@ -1,0 +1,17 @@
+@import '../../shared.scss';
+
+.superPacContainer {
+  p {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+}
+
+.whiteBackground {
+  background: $white;
+  padding: 2rem;
+}
