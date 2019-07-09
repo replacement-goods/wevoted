@@ -2,6 +2,10 @@
 
 .mainContainer {
   background: $light-grey;
-  max-width: 1024px;
+  max-width: 768px;
   margin: 0 auto;
+
+  @media screen and (min-width: $break-large) {
+    max-width: 1024px;
+  }
 }

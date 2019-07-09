@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Recoleta';
-  src: url('./fonts/Recoleta-Black.otf');
+  src: url('/fonts/Recoleta-Black.otf');
 }
 
 /* fonts */
@@ -24,7 +24,7 @@ $button-color: #1abf86;
 
 /* breakpoints */
 $break-medium: 768px;
-$break-large: 1024px;
+$break-large: 1500px;
 
 /* utility */
 @mixin grayscale {
