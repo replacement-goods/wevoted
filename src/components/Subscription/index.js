@@ -28,6 +28,10 @@ const Subscription = () => {
       <div className={styles.subscriptionImage}>
         <img src={subscription} />
       </div>
+      <InnerContainer>
+        <h3 className={styles.blueText}>We get that this seems kinda crazy and we can imagine that you’re skeptical.</h3>
+        <h3 className={styles.blackBlueText}>Why should you trust that the political action that we are going to support will be in line with your values?</h3>
+      </InnerContainer>
     </div>
   );
 };

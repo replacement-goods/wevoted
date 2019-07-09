@@ -67,38 +67,46 @@ h3 {
 
 /* color classes */
 
-.white-text {
+.whiteText {
   color: $white;
 }
 
-.red-background {
+.redBackground {
   background: $red;
 }
 
-.dark-red-text {
+.darkRedText {
   color: $dark-red;
 }
 
-.blue-background {
+.blueBackground {
   background: $blue;
 }
 
-.dark-blue-text {
+.darkBlueText {
   color: $dark-blue;
 }
 
-.green-background {
+.greenBackground {
   background: $green;
 }
 
-.dark-green-text {
+.darkGreenText {
   color: $dark-green;
 }
 
-.pink-background {
+.pinkBackground {
   background: $pink;
 }
 
-.dark-pink-text {
+.darkPinkText {
   color: $dark-pink;
+}
+
+.blueText {
+  color: $blue;
+}
+
+.blackBlueText {
+  color: $black-blue;
 }
