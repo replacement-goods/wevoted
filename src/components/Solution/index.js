@@ -18,16 +18,12 @@ const Solution = () => {
           </h3>
         </InnerContainer>
       </div>
-      <BigSmallImage
-        bigImageUrl={mitchLarge}
-        smallImageUrl={mitch}
-        className={styles.solutionImage}
-      />
-      <BigSmallImage
-        bigImageUrl={happyFaceLarge}
-        smallImageUrl={happyFace}
-        className={styles.happyFaceImage}
-      />
+      <div className={styles.solutionImage}>
+        <img src={mitch} />
+      </div>
+      <div className={styles.happyFaceImage}>
+        <img src={happyFace} />
+      </div>
     </div>
   );
 };

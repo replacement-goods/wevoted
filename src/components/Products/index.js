@@ -2,18 +2,13 @@ import React from 'react';
 import styles from './products.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import products from '../../images/products.png';
-import productsLarge from '../../images/products-large.png';
-import BigSmallImage from '../../elements/BigSmallImage';
 
 const Products = () => {
   return (
     <div className={styles.productsContainer}>
       <div className={styles.greenBackground}>
         <InnerContainer>
-          <h3 className={styles.darkGreenText}>We sell high-quality household goods.</h3>
-          <h3 className={styles.whiteText}>
-            Yeah, it's super boring. But we're doing this for the cause.
-          </h3>
+          <h3 className={styles.whiteText}>We will be selling a full line of high-quality household goods. <span className={styles.darkGreenText}>Yeah, it's super boring, we know.</span></h3>
         </InnerContainer>
       </div>
       <svg
@@ -24,11 +19,9 @@ const Products = () => {
       >
         <path d="M-.5,19.5V-.5h1920v20s-435-16-960-16S-.5,19.5-.5,19.5Z" transform="translate(0.5 0.5)"/>
       </svg>
-      <BigSmallImage
-        bigImageUrl={productsLarge}
-        smallImageUrl={products}
-        className={styles.productsImage}
-      />
+      <div className={styles.productsImage}>
+        <img src={products} />
+      </div>
       <InnerContainer>
         <ul className={styles.productList}>
           <li>DISH SOAP</li>

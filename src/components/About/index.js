@@ -30,11 +30,9 @@ const About = () => {
           </p>
         </InnerContainer>
       </div>
-      <BigSmallImage
-        bigImageUrl={joinLarge}
-        smallImageUrl={join}
-        className={styles.joinImage}
-      />
+      <div className={styles.joinImage}>
+        <img src={join} />
+      </div>
     </div>
   );
 };

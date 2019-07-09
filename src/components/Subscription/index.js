@@ -1,9 +1,7 @@
 import React from 'react';
 import styles from './subscription.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
-import BigSmallImage from '../../elements/BigSmallImage';
 import subscription from '../../images/subscription.png';
-import subscriptionLarge from '../../images/subscription-large.png';
 
 const Option = ({ size, items, cost }) => (
   <div className={styles.option}>
@@ -32,11 +30,9 @@ const Subscription = () => {
       >
         <path d="M-.5,19.5V-.5h1920v20s-435-16-960-16S-.5,19.5-.5,19.5Z" transform="translate(0.5 0.5)"/>
       </svg>
-      <BigSmallImage
-        bigImageUrl={subscriptionLarge}
-        smallImageUrl={subscription}
-        className={styles.subscriptionImage}
-      />
+      <div className={styles.subscriptionImage}>
+        <img src={subscription} />
+      </div>
       <div className={styles.subscriptionOptions}>
         <Option size="S" items="3" cost="$24.99" />
         <Option size="M" items="6" cost="$44.99" />

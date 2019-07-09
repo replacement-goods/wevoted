@@ -6,44 +6,31 @@
     position: relative;
     background: $green;
     z-index: 0;
-    padding-bottom: 150px;
-
-    @media screen and (min-width: $break-large) {
-      padding-bottom: 200px;
-    }
+    padding-bottom: 30rem;
   }
 }
 
 .edge {
   display: block;
   width: 100%;
-  height: 10px;
+  height: 1rem;
 
   path {
     fill: $green;
-  }
-
-  @media screen and (min-width: $break-large) {
-    height: 20px;
   }
 }
 
 .productsImage {
   display: block;
   width: 100%;
-  margin-top: -150px;
+  margin-top: -30rem;
   position: relative;
   z-index: 1;
-
-  @media screen and (min-width: $break-large) {
-    margin: -200px auto 0 auto;
-    max-width: 1000px;
-  }
 }
 
 .productList {
   list-style: none;
-  margin: -80px -7px 0 -7px;
+  margin: -8rem -0.7rem 0 -0.7rem;
   padding: 0;
   text-indent: 0;
   text-align: center;
@@ -51,36 +38,32 @@
 
   li {
     display: inline-block;
-    margin: 0 7px;
-    font-size: 16px;
-    line-height: 42px;
+    margin: 0 0.7rem;
+    font-size: 1.6rem;
+    line-height: 4.2rem;
     font-weight: 700;
-
-    @media screen and (min-width: $break-large) {
-      font-size: 19px;
-    }
   }
 }
 
 .productFeatures {
   list-style: none;
-  margin: 70px auto 40px auto;
-  padding: 20px;
+  margin: 7rem auto 4rem auto;
+  padding: 2rem;
   text-indent: 0;
   columns: auto 2;
   background: $white;
-  border-radius: 4px;
-  max-width: 430px;
+  border-radius: 0.4rem;
+  max-width: 43rem;
   color: $black-blue;
 
   li {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding-left: 20px;
+    padding-left: 2rem;
     background-image: url('../../images/checkmark.svg');
     background-repeat: no-repeat;
-    background-size: 9px;
+    background-size: 0.9rem;
     background-position: left center;
   }
 }
