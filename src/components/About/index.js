@@ -16,8 +16,8 @@ const About = () => {
             They take your money and support politicians that do NOTHING on guns, climate
             change, women’s rights.
           </p>
-          <p className={styles.bold}>When you buy our products you are throwing a hand grenade into the system.</p>
-          <p className={styles.bold}>
+          <p>When you buy our products you are throwing a hand grenade into the system.</p>
+          <p>
             We will literally take your money and funnel it into the We Voted superPAC where
             it will be used to fund direct political action against right wing politicians
             that are destroying this country and this planet.
