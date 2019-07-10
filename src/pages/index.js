@@ -16,7 +16,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="We Voted to Unseat Terrible Right Wind Politicians" />
     <Menu />
-    <Intro />
+    <Intro withProductImage={true} />
     <Press />
     <Problem />
     <Solution />

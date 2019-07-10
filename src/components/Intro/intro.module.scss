@@ -20,7 +20,11 @@
 }
 
 .textContainer {
-  padding-bottom: 22rem;
+  padding-bottom: 2rem;
+
+  &.bottomPadding {
+    padding-bottom: 22rem;
+  }
 }
 
 .logo {

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'gatsby';
 import classnames from 'classnames';
 import styles from './menu.module.scss';
 
@@ -10,9 +11,12 @@ const Menu = () => {
       <a className={styles.navToggle} onClick={() => setOpen(!open)}><span></span></a>
       <div className={styles.overlay}>
         <nav className={styles.mainNav}>
-          <a href="#">Contact Us</a>
-          <a href="#">FAQ</a>
-          <a href="#">Terms & Conditions</a>
+          <a href="mailto:contact@wevoted.com">Contact Us</a>
+          <a href="https://www.facebook.com/wevotedofficial" target="_blank">Facebook</a>
+          <a href="https://www.twitter.com/wevotedofficial" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com/wevoted" target="_blank">Instagram</a>
+          <Link to="/faq/">FAQ</Link>
+          <Link to="/terms/">Terms and Conditions</Link>
         </nav>
         <form className={styles.contactForm} method="post" action="#" data-netlify="true" name="contact">
           <input type="hidden" name="form-name" value="contact" />
