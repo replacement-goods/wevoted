@@ -3,8 +3,9 @@
 .navToggle {
   position: absolute;
   z-index: 5;
-  top: 33px;
-  right: 58px;
+  top: 8px;
+  right: 33px;
+  padding: 25px;
   cursor: pointer;
   display: block;
 }
@@ -26,7 +27,37 @@
   bottom: -8px; 
 }
 
+.overlay {
+  transition: left 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  bottom: 0;
+  width: 100%;
+  background: $blue;
+  z-index: 4;
+}
+
+.mainNav {
+  padding: 7.6rem;
+  margin: 0 auto;
+  max-width: 32rem;
+
+  a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba($white, 0.5);
+    color: $white;
+  }
+}
+
 .menuOpen {
+  .overlay {
+    left: 0;
+  }
+
   .navToggle span {
     background-color: transparent;
   }
