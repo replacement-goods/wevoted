@@ -14,7 +14,7 @@ const Subscription = () => {
         <InnerContainer>
           <h3 className={styles.whiteText}>This is our basic box<br />$24.99 per month.</h3>
           <h3 className={styles.darkGreenText}>It contains hand soap, dish soap, laundry detergent pods and kitchen garbage bags.</h3>
-          <h3 className={styles.whiteText}><a href="#">You can order it now from our IndieGoGo campaign.</a></h3>
+          <h3 className={styles.whiteText}><a href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/" target="_blank">You can order it now from our IndieGoGo campaign.</a></h3>
         </InnerContainer>
       </div>
       <svg
