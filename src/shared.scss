@@ -18,9 +18,9 @@ button {
 body {
   margin: 0;
   overscroll-behavior: none;
-  font-family: $sans;
+  font-family: $serif;
   font-weight: 400;
-  background-color: $black-blue;
+  background-color: $light-grey;
 }
 
 html,
@@ -52,7 +52,7 @@ img {
 h2 {
   font-size: 3.25rem;
   line-height: 4.55rem;
-  font-family: $serif;
+  font-family: $slab;
   text-align: center;
 }
 

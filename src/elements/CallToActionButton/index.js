@@ -9,7 +9,7 @@ const CallToActionButton = ({ withShadow }) => {
       target="_blank"
       className={classnames(styles.ctaButton, withShadow && styles.withShadow)}
     >
-      Join Our Little Revolution
+      Join Our Revolution
     </a>
   );
 };

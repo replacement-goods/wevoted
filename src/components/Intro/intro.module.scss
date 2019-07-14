@@ -4,48 +4,28 @@
   @include grayscale;
   position: relative;
   background: $light-grey;
-}
-
-.edge {
-  display: block;
-  width: 100%;
-  height: 1rem;
-  position: relative;
-  z-index: 0;
-  margin-top: -1px;
-
-  path {
-    fill: $blue;
-  }
-}
-
-.textContainer {
-  padding-bottom: 2rem;
-
-  &.bottomPadding {
-    padding-bottom: 22rem;
-  }
+  color: $black-blue;
 }
 
 .logo {
   display: block;
-  margin: 0 auto;
-  max-width: 15rem;
+  margin: 30px auto 0 auto;
+  max-width: 127px;
 }
 
 .tagline {
-  font-family: $serif;
+  font-family: $slab;
   text-align: center;
-  font-size: 1.6rem;
-  line-height: 2.1rem;
-  color: $white;
-  margin-top: 2.1rem;
+  font-size: 18px;
+  line-height: 23px;
+  max-width: 250px;
+  margin: 40px auto;
 }
 
 .introImage {
-  margin-top: -22rem;
-  position: relative;
-  z-index: 1;
+  max-width: 375px;
+  margin: 0 auto;
+  display: block;
 }
 
 .ctaContainer {

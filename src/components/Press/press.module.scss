@@ -2,16 +2,17 @@
 
 .pressContainer {
   background: $light-grey;
-  margin-top: -9rem;
   position: relative;
   z-index: 0;
 
   blockquote {
-    font-family: $serif;
-    font-size: 1.6rem;
+    font-family: $slab;
+    font-size: 16px;
     color: $black-blue;
     text-align: center;
     position: relative;
     z-index: 1;
+    margin: 0 auto;
+    max-width: 210px;
   }
 }

@@ -6,7 +6,7 @@ const Press = () => {
   return (
     <div className={styles.pressContainer}>
       <InnerContainer>
-        <blockquote>"Great quotes from super enthusiastic progressive media sources coming really soon!"</blockquote>
+        <blockquote>"It's like Newman's Own but for pissed off progressives."</blockquote>
       </InnerContainer>
     </div>
   );
