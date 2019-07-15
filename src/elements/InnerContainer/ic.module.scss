@@ -2,7 +2,15 @@
 
 .innerContainer {
   width: 100%;
-  max-width: 300px;
   margin: 0 auto;
+  padding: 0 35px;
   color: $black-blue;
+
+  @media screen and (min-width: $break-medium) {
+    padding: 0 70px;
+  }
+
+  @media screen and (min-width: $break-large) {
+    padding: 0 130px;
+  }
 }

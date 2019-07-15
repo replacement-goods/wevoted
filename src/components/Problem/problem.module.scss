@@ -12,21 +12,30 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  @media screen and (min-width: $break-medium) {
+    display: flex;
+  }
 }
 
 .leaders {
   background: $peach;
   padding-top: 60px;
+  @media screen and (min-width: $break-medium) {
+    width: 50%;
+  }
 }
 
 .brands {
   background: $yellow;
   padding-top: 60px;
+  @media screen and (min-width: $break-medium) {
+    width: 50%;
+  }
 }
 
 .problemImage, .badProductsImage {
   display: block;
   width: calc(100% - 40px);
-  max-width: 335px;
   margin: 50px auto 0 auto;
 }
