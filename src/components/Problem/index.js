@@ -1,26 +1,37 @@
 import React from 'react';
 import styles from './problem.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
-import devinNunes from '../../images/devin-nunes.png';
-import thumbsDown from '../../images/thumbs-down.png';
+import rightWingers from '../../images/right-wingers.png';
+import badProducts from '../../images/bad-products.jpg';
 
 const Problem = () => {
   return (
     <div className={styles.problemContainer}>
-      <div className={styles.redBackground}>
+      <div className={styles.leaders}>
         <InnerContainer>
-          <h3 class={styles.whiteText}>
-            <span class={styles.darkRedText}>The home products you buy</span> support the
-            right-wing politicians you hate.
-          </h3>
-          <h3 className={styles.whiteText}><a href="#">Get the facts.</a></h3>
+          <h3 class={styles.whiteText}>Terrible right-wing leaders</h3>
+          <p>
+            Let’s face facts - there is no greater threat to our country and planet than
+            these assholes staying in power. On ever single issue they are cynical,
+            irresponsible and downright awful.
+          </p>
         </InnerContainer>
+        <div className={styles.problemImage}>
+          <img src={rightWingers} />
+        </div>
       </div>
-      <div className={styles.problemImage}>
-        <img src={devinNunes} />
-      </div>
-      <div className={styles.thumbsDownImage}>
-        <img src={thumbsDown} />
+      <div className={styles.brands}>
+        <InnerContainer>
+          <h3 class={styles.whiteText}>...and the brands that support them</h3>
+          <p>
+            But how can we possibly expect to defeat these assholes when literally every
+            day we buy products made by companies that are bankrolling them? [get the
+            facts]
+          </p>
+        </InnerContainer>
+        <div className={styles.badProductsImage}>
+          <img src={badProducts} />
+        </div>
       </div>
     </div>
   );
