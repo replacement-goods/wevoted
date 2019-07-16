@@ -1,0 +1,49 @@
+@import '../../shared.scss';
+
+.mainFooter {
+  background: $blue;
+  @include grayscale;
+  padding-top: 90px;
+  position: relative;
+  z-index: 4;
+
+  form {
+    display: block;
+    padding-bottom: 90px;
+
+    label {
+      display: block;
+      color: $white;
+      font-family: $slab;
+      font-size: 30px;
+      margin: 0 0 45px 0;
+    }
+
+    input {
+      background: transparent;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      border-bottom: 2px solid $white;
+      width: 250px;
+      height: 50px;
+      line-height: 50px;
+
+      &::placeholder {
+        color: $white;
+        font-weight: 700;
+      }
+    }
+
+    button {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      background: $button-color;
+      color: $white;
+      border: none;
+      outline: none;
+      margin-left: 10px;
+    }
+  }
+}

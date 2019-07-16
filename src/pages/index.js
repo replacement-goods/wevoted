@@ -18,6 +18,7 @@ import happyFace from '../images/happy-face.png';
 import happyFaceLarge from '../images/happy-face-large.png';
 import texting from '../images/texting.png';
 import FAQ from '../components/FAQ';
+import Footer from '../components/Footer';
 
 const IndexPage = () => (
   <Layout>
@@ -38,6 +39,7 @@ const IndexPage = () => (
     </div>
     <About />
     <FAQ />
+    <Footer />
     <CallToAction />
   </Layout>
 );
