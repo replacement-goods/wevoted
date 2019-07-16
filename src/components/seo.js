@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import recoleta from '../fonts/recoleta.woff';
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -70,6 +71,14 @@ function SEO({ description, lang, meta, title }) {
       ].concat(meta)}
     >
       <link rel="stylesheet" href="https://use.typekit.net/bvu8gcl.css" />
+      <style type="text/css">{`
+        @font-face {
+          font-family: 'recoleta black';
+          src: url(${recoleta}) format('woff');
+          font-weight: normal;
+          font-style: normal;
+        }
+      `}</style>
     </Helmet>
   )
 }
