@@ -1,36 +1,29 @@
 @import '../../shared.scss';
 
 .productsContainer {
-
-  .greenBackground {
-    position: relative;
-    background: $green;
-    z-index: 0;
-    padding-bottom: 20rem;
+  text-align: center;
+  
+  @media screen and (min-width: $break-medium) {
+    display: flex;
   }
-}
-
-.edge {
-  display: block;
-  width: 100%;
-  height: 1rem;
-
-  path {
-    fill: $green;
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    color: $black-blue;
+    font-size: 20px;
+    line-height: 36px;
   }
 }
 
 .productsImage {
-  display: block;
-  width: 100%;
-  margin-top: -20rem;
-  position: relative;
-  z-index: 1;
+  background: $yellow;
 }
 
 .productList {
   list-style: none;
-  margin: -5rem -0.7rem 0 -0.7rem;
+  margin: 0 auto;
+  max-width: 340px;
   padding: 0;
   text-indent: 0;
   text-align: center;
@@ -38,31 +31,9 @@
 
   li {
     display: inline-block;
-    margin: 0 0.7rem;
-    font-size: 1.6rem;
-    line-height: 4.2rem;
-    font-weight: 700;
-  }
-}
-
-.productFeatures {
-  list-style: none;
-  margin: 4rem auto 2rem auto;
-  padding: 2rem;
-  text-indent: 0;
-  columns: auto 2;
-  background: $white;
-  border-radius: 0.4rem;
-  color: $black-blue;
-
-  li {
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-left: 1.5rem;
-    background-image: url('../../images/checkmark.svg');
-    background-repeat: no-repeat;
-    background-size: 0.9rem;
-    background-position: left center;
+    margin: 0 10px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: $slab;
   }
 }

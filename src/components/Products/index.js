@@ -2,43 +2,32 @@ import React from 'react';
 import styles from './products.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import products from '../../images/products.png';
+import HalfPageBlock from '../../elements/HalfPageBlock';
 
 const Products = () => {
   return (
     <div className={styles.productsContainer}>
-      <div className={styles.greenBackground}>
+      <HalfPageBlock className={styles.fullLine}>
         <InnerContainer>
-          <h3 className={styles.whiteText}>We will be selling a full line of high-quality household goods. <span className={styles.darkGreenText}>Yeah, it's super boring, we know.</span></h3>
+          <h3>The full line</h3>
+          <span className={styles.date}>(Available Fall 2019)</span>
+          <p>
+            Our full line of high quality all natural home products will be available Fall
+            2019.
+          </p>
+          <ul className={styles.productList}>
+            <li>Dish soap</li>
+            <li>Hand soap</li>
+            <li>Laundry & Dishwasher pods</li>
+            <li>13 & 30 gallon garbage bags</li>
+            <li>Multi-purpose & glass cleaners</li>
+            <li>Water wipes</li>
+          </ul>
         </InnerContainer>
-      </div>
-      <svg
-        className={styles.edge}
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1920 20"
-        preserveAspectRatio="none"
-      >
-        <path d="M-.5,19.5V-.5h1920v20s-435-16-960-16S-.5,19.5-.5,19.5Z" transform="translate(0.5 0.5)"/>
-      </svg>
-      <div className={styles.productsImage}>
+      </HalfPageBlock>
+      <HalfPageBlock className={styles.productsImage}>
         <img src={products} />
-      </div>
-      <InnerContainer>
-        <ul className={styles.productList}>
-          <li>DISH SOAP</li>
-          <li>HAND SOAP</li>
-          <li>BAR SOAP</li>
-          <li>ALL PURPOSE & WINDOW CLEANERS</li>
-          <li>DISHWASHER PODS</li>
-          <li>LAUNDRY PODS</li>
-          <li>13 & 30 GALLON GARBAGE BAGS</li>
-        </ul>
-        <ul className={styles.productFeatures}>
-          <li>All Natural</li>
-          <li>Made in the USA</li>
-          <li>Recycled Packaging</li>
-          <li>Ethically Sourced</li>
-        </ul>
-      </InnerContainer>
+      </HalfPageBlock>
     </div>
   );
 };

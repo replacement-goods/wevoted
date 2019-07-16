@@ -8,6 +8,7 @@
 
 .boxImage {
   background: $yellow;
+  padding-top: 0 !important;
 }
 
 .basics {
@@ -35,8 +36,8 @@
 
 .productFeatures {
   list-style: none;
-  margin: 4rem auto 2rem auto;
-  padding: 2rem;
+  margin: 50px auto 0 auto;
+  padding: 20px;
   text-indent: 0;
   columns: auto 2;
   background: $light-grey;
