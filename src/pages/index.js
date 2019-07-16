@@ -11,6 +11,9 @@ import About from '../components/About';
 import Menu from '../components/Menu';
 import Press from '../components/Press';
 import SuperPAC from '../components/SuperPAC';
+import BigSmallImage from '../elements/BigSmallImage';
+import thumbsDown from '../images/thumbs-down.png';
+import thumbsDownLarge from '../images/thumbs-down-large.png';
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +22,7 @@ const IndexPage = () => (
     <Intro withProductImage={true} />
     <Press />
     <Problem />
+    <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
     <Solution />
     <Products />
     <Subscription />

@@ -1,9 +1,17 @@
 @import '../../shared.scss';
 
+.container {
+  margin-top: 40px;
+
+  @media screen and (min-width: $break-medium) {
+    margin-top: 70px;
+  }
+}
+
 .bigImage {
   display: none;
 
-  @media screen and (min-width: $break-large) {
+  @media screen and (min-width: $break-medium) {
     display: block;
   }
 }
@@ -11,7 +19,7 @@
 .smallImage {
   display: block;
 
-  @media screen and (min-width: $break-large) {
+  @media screen and (min-width: $break-medium) {
     display: none;
   }
 }

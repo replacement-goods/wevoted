@@ -3,11 +3,12 @@ import styles from './problem.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import rightWingers from '../../images/right-wingers.png';
 import badProducts from '../../images/bad-products.jpg';
+import HalfPageBlock from '../../elements/HalfPageBlock';
 
 const Problem = () => {
   return (
     <div className={styles.problemContainer}>
-      <div className={styles.leaders}>
+      <HalfPageBlock className={styles.leaders}>
         <InnerContainer>
           <h3 class={styles.whiteText}>Terrible right-wing leaders</h3>
           <p>
@@ -19,8 +20,8 @@ const Problem = () => {
         <div className={styles.problemImage}>
           <img src={rightWingers} />
         </div>
-      </div>
-      <div className={styles.brands}>
+      </HalfPageBlock>
+      <HalfPageBlock className={styles.brands}>
         <InnerContainer>
           <h3 class={styles.whiteText}>...and the brands that support them</h3>
           <p>
@@ -32,7 +33,7 @@ const Problem = () => {
         <div className={styles.badProductsImage}>
           <img src={badProducts} />
         </div>
-      </div>
+      </HalfPageBlock>
     </div>
   );
 };

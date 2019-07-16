@@ -20,22 +20,10 @@
 
 .leaders {
   background: $peach;
-  padding-top: 60px;
-  @media screen and (min-width: $break-medium) {
-    width: 50%;
-    position: relative;
-    padding-bottom: 25%;
-  }
 }
 
 .brands {
   background: $yellow;
-  padding-top: 60px;
-  @media screen and (min-width: $break-medium) {
-    width: 50%;
-    position: relative;
-    padding-bottom: 27%;
-  }
 }
 
 .problemImage, .badProductsImage {

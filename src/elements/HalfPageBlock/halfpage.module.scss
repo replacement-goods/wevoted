@@ -1,0 +1,10 @@
+@import '../../shared.scss';
+
+.halfPageContainer {
+  padding-top: 60px;
+  @media screen and (min-width: $break-medium) {
+    width: 50%;
+    position: relative;
+    padding-bottom: 25%;
+  }
+}
