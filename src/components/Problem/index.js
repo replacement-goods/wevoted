@@ -13,7 +13,7 @@ const Problem = () => {
           <h3 class={styles.whiteText}>Terrible right-wing leaders</h3>
           <p>
             Let’s face facts - there is no greater threat to our country and planet than
-            these assholes staying in power. On ever single issue they are cynical,
+            these assholes staying in power. On every single issue they are cynical,
             irresponsible and downright awful.
           </p>
         </InnerContainer>
@@ -26,8 +26,7 @@ const Problem = () => {
           <h3 class={styles.whiteText}>...and the brands that support them</h3>
           <p>
             But how can we possibly expect to defeat these assholes when literally every
-            day we buy products made by companies that are bankrolling them? [get the
-            facts]
+            day we buy products made by companies that are bankrolling them?
           </p>
         </InnerContainer>
         <div className={styles.badProductsImage}>
