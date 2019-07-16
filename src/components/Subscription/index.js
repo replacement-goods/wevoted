@@ -17,6 +17,12 @@ const Subscription = () => {
           <a href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/" target="_blank">(Available now via our IndieGoGO campaign)</a>
           <h4>$24.99 / Month</h4>
           <p>It contains hand soap, dish soap, laundry detergent pods and kitchen garbage bags.</p>
+          <ul className={styles.productFeatures}>
+            <li>All Natural</li>
+            <li>Made in the USA</li>
+            <li>Recycled Packaging</li>
+            <li>Ethically Sourced</li>
+          </ul>
         </InnerContainer>
       </HalfPageBlock>
     </div>

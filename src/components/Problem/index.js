@@ -8,7 +8,7 @@ import HalfPageBlock from '../../elements/HalfPageBlock';
 const Problem = () => {
   return (
     <div className={styles.problemContainer}>
-      <HalfPageBlock className={styles.leaders}>
+      <HalfPageBlock hasBottomImage={true} className={styles.leaders}>
         <InnerContainer>
           <h3 class={styles.whiteText}>Terrible right-wing leaders</h3>
           <p>
@@ -21,7 +21,7 @@ const Problem = () => {
           <img src={rightWingers} />
         </div>
       </HalfPageBlock>
-      <HalfPageBlock className={styles.brands}>
+      <HalfPageBlock hasBottomImage={true} className={styles.brands}>
         <InnerContainer>
           <h3 class={styles.whiteText}>...and the brands that support them</h3>
           <p>

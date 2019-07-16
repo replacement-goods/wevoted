@@ -8,7 +8,7 @@ import HalfPageBlock from '../../elements/HalfPageBlock';
 const Solution = () => {
   return (
     <div className={styles.solutionContainer}>
-      <HalfPageBlock className={styles.ourPlan}>
+      <HalfPageBlock hasBottomImage={true} className={styles.ourPlan}>
         <InnerContainer>
           <h3>So our plan is to beat them at their own game.</h3>
           <p>
@@ -21,7 +21,7 @@ const Solution = () => {
           <img src={soap} />
         </div>
       </HalfPageBlock>
-      <HalfPageBlock className={styles.pac}>
+      <HalfPageBlock hasBottomImage={true} className={styles.pac}>
         <InnerContainer>
           <h3>
             Literally half of our profits go directly to the cause of driving the bastards
