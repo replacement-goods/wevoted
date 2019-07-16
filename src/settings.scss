@@ -31,4 +31,6 @@ $break-large: 1500px;
 
 /* utility */
 @mixin grayscale {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
