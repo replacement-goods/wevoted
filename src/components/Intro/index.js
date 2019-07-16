@@ -3,9 +3,11 @@ import classnames from 'classnames';
 import styles from './intro.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import bottles from '../../images/bottles.jpg';
+import bottlesLarge from '../../images/bottles-large.png';
 import logoImage from '../../images/logo.png';
 import CallToActionButton from '../../elements/CallToActionButton';
 import { Link } from 'gatsby';
+import BigSmallImage from '../../elements/BigSmallImage';
 
 const Intro = ({ withProductImage = false }) => {
   return (
@@ -26,7 +28,10 @@ const Intro = ({ withProductImage = false }) => {
           </div>
           {withProductImage && (
             <div className={styles.introImage}>
-              <img src={bottles} />
+              <BigSmallImage
+                bigImageUrl={bottlesLarge}
+                smallImageUrl={bottles}
+              />
             </div>
           )}
         </div>
