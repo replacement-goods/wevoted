@@ -17,6 +17,7 @@ import thumbsDownLarge from '../images/thumbs-down-large.png';
 import happyFace from '../images/happy-face.png';
 import happyFaceLarge from '../images/happy-face-large.png';
 import texting from '../images/texting.png';
+import FAQ from '../components/FAQ';
 
 const IndexPage = () => (
   <Layout>
@@ -36,6 +37,7 @@ const IndexPage = () => (
       <img src={texting} />
     </div>
     <About />
+    <FAQ />
     <CallToAction />
   </Layout>
 );
