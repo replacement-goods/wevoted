@@ -16,6 +16,7 @@ import thumbsDown from '../images/thumbs-down.png';
 import thumbsDownLarge from '../images/thumbs-down-large.png';
 import happyFace from '../images/happy-face.png';
 import happyFaceLarge from '../images/happy-face-large.png';
+import texting from '../images/texting.png';
 
 const IndexPage = () => (
   <Layout>
@@ -31,7 +32,9 @@ const IndexPage = () => (
     </div>
     <Subscription />
     <Products />
-    <SuperPAC />
+    <div style={{ margin: '50px auto 0 auto', maxWidth: '440px' }}>
+      <img src={texting} />
+    </div>
     <About />
     <CallToAction />
   </Layout>

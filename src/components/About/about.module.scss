@@ -4,22 +4,36 @@
   color: $white;
   @include grayscale;
 
+  @media screen and (min-width: $break-medium) {
+    display: flex;
+  }
+
+  h3 {
+    color: $white;
+  }
+
   .blueBackground {
     padding: 3rem 0;
     background: $blue;
   }
 
   p {
-    font-size: 2rem;
-    line-height: 2.9rem;
-    margin: 0 0 2.6rem 0;
+    font-size: 16px;;
+    line-height: 24px;
     color: $white;
-    font-weight: 700;
 
     &:last-child {
       margin: 0;
     }
   }
+}
+
+.getInvolved {
+  background: $orange;
+}
+
+.helpUs {
+  background: $pink;
 }
 
 .joinImage {

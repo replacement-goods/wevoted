@@ -2,35 +2,35 @@ import React from 'react';
 import InnerContainer from '../../elements/InnerContainer';
 import styles from './about.module.scss';
 import join from '../../images/join.png';
+import HalfPageBlock from '../../elements/HalfPageBlock';
+import bullhorn from '../../images/bullhorn.png';
 
 const About = () => {
   return (
     <div className={styles.aboutContainer}>
-      <div className={styles.blueBackground}>
+      <HalfPageBlock hasBottomImage={true} className={styles.getInvolved}>
         <InnerContainer>
+          <h3>Get involved.</h3>
           <p>
-            Every time you buy products from one of the regular brands you are basically
-            voting for more of the same.
-          </p>
-          <p>
-            They take your money and support politicians that do NOTHING on guns, climate
-            change, women’s rights.
-          </p>
-          <p>When you buy our products you are throwing a hand grenade into the system.</p>
-          <p>
-            We will literally take your money and funnel it into the We Voted superPAC where
-            it will be used to fund direct political action against right wing politicians
-            that are destroying this country and this planet.
-          </p>
-          <p>
-            Right now we have an IndieGoGo campaign going and we could really use your
-            support.
+            We Voted is growing every day. We’re looking for talented people to join our
+            team and help make a difference. If you’re interested in joining our team send
+            us an email. We’d love to hear from you.
           </p>
         </InnerContainer>
-      </div>
-      <div className={styles.joinImage}>
-        <img src={join} />
-      </div>
+        <div className={styles.involvedImage}>
+          <img src={bullhorn} />
+        </div>
+      </HalfPageBlock>
+      <HalfPageBlock hasBottomImage={true} className={styles.helpUs}>
+        <InnerContainer>
+          <h3>We really need your help.</h3>
+          <p>
+            This project is a labor of love. We’ve funded it so far with our own money and
+            some generous contributions. Please consider contributing to our IndieGoGo
+            campaign. You’ll get some GREAT products and even some sweet We Voted swag!
+          </p>
+        </InnerContainer>
+      </HalfPageBlock>
     </div>
   );
 };
