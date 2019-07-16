@@ -26,9 +26,11 @@ const IndexPage = () => (
     <Problem />
     <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
     <Solution />
-    <BigSmallImage bigImageUrl={happyFaceLarge} smallImageUrl={happyFace} />
-    <Products />
+    <div style={{ margin: '0 auto', maxWidth: '440px' }}>
+      <BigSmallImage bigImageUrl={happyFaceLarge} smallImageUrl={happyFace} />
+    </div>
     <Subscription />
+    <Products />
     <SuperPAC />
     <About />
     <CallToAction />
