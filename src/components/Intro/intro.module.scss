@@ -11,6 +11,10 @@
   display: block;
   margin: 30px auto 0 auto;
   max-width: 127px;
+
+  @media screen and (min-width: $break-medium) {
+    margin: 20px 0 0 30px;
+  }
 }
 
 .tagline {
@@ -20,14 +24,32 @@
   line-height: 23px;
   max-width: 250px;
   margin: 40px auto;
+
+  @media screen and (min-width: $break-medium) {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    max-width: 600px;
+    margin-top: 110px;
+  }
 }
 
 .introImage {
   max-width: 375px;
   margin: 0 auto;
   display: block;
+
+  @media screen and (min-width: $break-medium) {
+    max-width: 50%;
+  }
 }
 
 .ctaContainer {
   display: none;
+}
+
+.flexContainer {
+  @media screen and (min-width: $break-medium) {
+    display: flex;
+  }
 }

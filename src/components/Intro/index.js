@@ -10,14 +10,14 @@ import { Link } from 'gatsby';
 const Intro = ({ withProductImage = false }) => {
   return (
     <div className={styles.introSection}>
-      <div>
-        <InnerContainer>
+      <Link to="/">
+        <img alt="We Voted" className={styles.logo} src={logoImage} />
+      </Link>
+      <InnerContainer>
+        <div className={styles.flexContainer}>
           <div className={styles.textContainer}>
-            <Link to="/">
-              <img alt="We Voted" className={styles.logo} src={logoImage} />
-            </Link>
             <p className={styles.tagline}>
-              We sell basic household products to make money to defeat right-wing
+              We sell great household products to make money to defeat right-wing
               politicians.
             </p>
             <div className={styles.ctaContainer}>
@@ -29,8 +29,8 @@ const Intro = ({ withProductImage = false }) => {
               <img src={bottles} />
             </div>
           )}
-        </InnerContainer>
-      </div>
+        </div>
+      </InnerContainer>
     </div>
   );
 };
