@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './solution.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
-import mitch from '../../images/mitch.png';
-import happyFace from '../../images/happy-face.png';
+import soap from '../../images/soap-bar.png';
+import pin from '../../images/pin.png';
 import HalfPageBlock from '../../elements/HalfPageBlock';
 
 const Solution = () => {
@@ -17,8 +17,8 @@ const Solution = () => {
             of our government.
           </p>
         </InnerContainer>
-        <div className={styles.solutionImage}>
-          <img src={mitch} />
+        <div className={styles.planImage}>
+          <img src={soap} />
         </div>
       </HalfPageBlock>
       <HalfPageBlock className={styles.pac}>
@@ -28,6 +28,9 @@ const Solution = () => {
             out of office.
           </h3>
         </InnerContainer>
+        <div className={styles.pacImage}>
+          <img src={pin} />
+        </div>
       </HalfPageBlock>
     </div>
   );

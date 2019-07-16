@@ -14,6 +14,8 @@ import SuperPAC from '../components/SuperPAC';
 import BigSmallImage from '../elements/BigSmallImage';
 import thumbsDown from '../images/thumbs-down.png';
 import thumbsDownLarge from '../images/thumbs-down-large.png';
+import happyFace from '../images/happy-face.png';
+import happyFaceLarge from '../images/happy-face-large.png';
 
 const IndexPage = () => (
   <Layout>
@@ -24,6 +26,7 @@ const IndexPage = () => (
     <Problem />
     <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
     <Solution />
+    <BigSmallImage bigImageUrl={happyFaceLarge} smallImageUrl={happyFace} />
     <Products />
     <Subscription />
     <SuperPAC />
