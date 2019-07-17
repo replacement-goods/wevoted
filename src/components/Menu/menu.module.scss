@@ -1,5 +1,26 @@
 @import '../../shared.scss';
 
+.persistentNav {
+  position: absolute;
+  top: 26px;
+  right: 90px;
+  text-align: right;
+  z-index: 3;
+
+  a {
+    display: inline-block;
+    margin-left: 30px;
+    font-family: $slab;
+    font-size: 14px;
+    text-decoration: none;
+    color: $black-blue;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
 .navToggle {
   position: absolute;
   z-index: 5;

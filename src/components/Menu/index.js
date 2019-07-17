@@ -8,6 +8,10 @@ const Menu = () => {
 
   return (
     <div className={classnames(styles.menu, open && styles.menuOpen)}>
+      <div className={styles.persistentNav}>
+        <a href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/" target="_blank">Support our IndieGoGo Campaign</a>
+        <a href="mailto:contact@wevoted.com">Contact Us</a>
+      </div>
       <a className={styles.navToggle} onClick={() => setOpen(!open)}><span></span></a>
       <div className={styles.overlay}>
         <nav className={styles.mainNav}>
