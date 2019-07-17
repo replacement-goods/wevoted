@@ -68,53 +68,7 @@ h3 {
     text-decoration: underline;
 
     &:hover {
-      color: $light-green;
+      color: $black;
     }
   }
-}
-
-/* color classes */
-
-.whiteText {
-  color: $white;
-}
-
-.redBackground {
-  background: $red;
-}
-
-.darkRedText {
-  color: $dark-red;
-}
-
-.blueBackground {
-  background: $blue;
-}
-
-.darkBlueText {
-  color: $dark-blue;
-}
-
-.greenBackground {
-  background: $green;
-}
-
-.darkGreenText {
-  color: $dark-green;
-}
-
-.pinkBackground {
-  background: $pink;
-}
-
-.darkPinkText {
-  color: $dark-pink;
-}
-
-.blueText {
-  color: $blue;
-}
-
-.blackBlueText {
-  color: $black-blue;
 }
