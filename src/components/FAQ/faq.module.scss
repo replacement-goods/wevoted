@@ -3,6 +3,14 @@
 .faqContainer {
   background: $light-grey;
   color: $black-blue;
+
+  h2 {
+    margin: 60px 0;
+
+    @media screen and (min-width: $break-medium) {
+      margin: 120px 0;
+    }
+  }
 }
 
 .question {

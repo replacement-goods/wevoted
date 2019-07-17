@@ -1,9 +1,9 @@
 import React from 'react';
 import InnerContainer from '../../elements/InnerContainer';
 import styles from './about.module.scss';
-import join from '../../images/join.png';
 import HalfPageBlock from '../../elements/HalfPageBlock';
 import bullhorn from '../../images/bullhorn.png';
+import bag from '../../images/bag.png';
 
 const About = () => {
   return (
@@ -30,6 +30,9 @@ const About = () => {
             campaign. You’ll get some GREAT products and even some sweet We Voted swag!
           </p>
         </InnerContainer>
+        <div className={styles.swagImage}>
+          <a href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/" target="_blank"><img src={bag} /></a>
+        </div>
       </HalfPageBlock>
     </div>
   );

@@ -40,7 +40,6 @@ const IndexPage = () => (
     <About />
     <FAQ />
     <Footer />
-    <CallToAction />
   </Layout>
 );
 

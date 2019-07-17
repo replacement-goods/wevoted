@@ -7,13 +7,35 @@
   color: $black-blue;
 }
 
-.logo {
+.logoMobile {
   display: block;
   margin: 30px auto 0 auto;
   max-width: 127px;
 
   @media screen and (min-width: $break-medium) {
-    margin: 20px 0 0 30px;
+    display: none;
+  }
+}
+
+.logoDesktop {
+  display: none;
+  margin: 20px 0 0 30px;
+  max-width: 130px;
+
+  @media screen and (min-width: $break-medium) {
+    display: block;
+  }
+}
+
+.textContainer {
+  max-width: 250px;
+  margin: 40px auto;
+  position: relative;
+  z-index: 1;
+
+  @media screen and (min-width: $break-medium) {
+    max-width: 600px;
+    margin: 110px 0 0 0;
   }
 }
 
@@ -22,16 +44,12 @@
   text-align: center;
   font-size: 18px;
   line-height: 23px;
-  max-width: 250px;
-  margin: 40px auto;
+  margin: 0;
 
   @media screen and (min-width: $break-medium) {
     font-size: 40px;
     line-height: 50px;
     text-align: left;
-    max-width: 600px;
-    margin-top: 110px;
-    height: 400px;
   }
 }
 
@@ -43,14 +61,20 @@
   @media screen and (min-width: $break-medium) {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 40%;
     width: 860px;
     max-width: none;
+    z-index: 0;
   }
 }
 
 .ctaContainer {
   display: none;
+
+  @media screen and (min-width: $break-medium) {
+    display: block;
+    margin: 90px 0;
+  }
 }
 
 .flexContainer {

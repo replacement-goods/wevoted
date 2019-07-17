@@ -15,7 +15,6 @@ const Menu = () => {
           <a href="https://www.facebook.com/wevotedofficial" target="_blank">Facebook</a>
           <a href="https://www.twitter.com/wevotedofficial" target="_blank">Twitter</a>
           <a href="https://www.instagram.com/wevoted" target="_blank">Instagram</a>
-          <Link to="/faq/">FAQ</Link>
           <Link to="/terms/">Terms and Conditions</Link>
         </nav>
         <form className={styles.contactForm} method="post" action="#" data-netlify="true" name="contact">

@@ -7,7 +7,7 @@
   position: relative;
   z-index: 4;
 
-  form {
+  .newsletterForm {
     display: block;
     padding-bottom: 90px;
 
@@ -25,7 +25,7 @@
       outline: none;
       box-shadow: none;
       border-bottom: 2px solid $white;
-      width: 250px;
+      width: 220px;
       height: 50px;
       line-height: 50px;
       font-size: 16px;
@@ -47,5 +47,15 @@
       outline: none;
       margin-left: 10px;
     }
+  }
+}
+
+.socialLinks {
+  padding-bottom: 75px;
+  a {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    margin-right: 20px;
   }
 }
