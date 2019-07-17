@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './products.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
-import products from '../../images/products.png';
+import products from '../../images/products.jpg';
+import productsSmall from '../../images/products-mobile.jpg';
 import HalfPageBlock from '../../elements/HalfPageBlock';
+import BigSmallImage from '../../elements/BigSmallImage';
 
 const Products = () => {
   return (
@@ -26,7 +28,10 @@ const Products = () => {
         </InnerContainer>
       </HalfPageBlock>
       <HalfPageBlock className={styles.productsImage}>
-        <img src={products} />
+        <BigSmallImage
+          bigImageUrl={products}
+          smallImageUrl={productsSmall}
+        />
       </HalfPageBlock>
     </div>
   );
