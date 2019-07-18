@@ -6,6 +6,7 @@
   h3 {
     font-family: $slab;
     margin: 0 0 30px 0;
+    text-align: left;
   }
   p {
     color: $white;
@@ -15,6 +16,10 @@
   @media screen and (min-width: $break-medium) {
     width: 50%;
     padding-top: 100px;
+
+    h3 {
+      text-align: center;
+    }
   }
 }
 
