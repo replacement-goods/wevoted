@@ -25,9 +25,9 @@ const Intro = ({ withProductImage = false }) => {
               We sell great household products to make money to defeat right-wing
               politicians.
             </p>
-            <div className={styles.ctaContainer}>
-              <CallToActionButton />
-            </div>
+          </div>
+          <div className={styles.ctaContainer}>
+            <CallToActionButton />
           </div>
           <div className={styles.introImage}>
             <BigSmallImage

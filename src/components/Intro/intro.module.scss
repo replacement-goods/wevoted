@@ -69,16 +69,19 @@
 }
 
 .ctaContainer {
-  display: none;
+  order: 3;
+  margin-bottom: 47px;
 
   @media screen and (min-width: $break-medium) {
-    display: block;
     margin: 90px 0;
   }
 }
 
 .flexContainer {
+  display: flex;
+  flex-direction: column;
+
   @media screen and (min-width: $break-medium) {
-    display: flex;
+    display: block;
   }
 }
