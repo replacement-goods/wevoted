@@ -4,6 +4,8 @@ import styles from './about.module.scss';
 import HalfPageBlock from '../../elements/HalfPageBlock';
 import bullhorn from '../../images/bullhorn.png';
 import bag from '../../images/bag.png';
+import bagSmall from '../../images/bag-small.png';
+import BigSmallImage from '../../elements/BigSmallImage';
 
 const About = () => {
   return (
@@ -31,7 +33,15 @@ const About = () => {
           </p>
         </InnerContainer>
         <div className={styles.swagImage}>
-          <a href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/" target="_blank"><img src={bag} /></a>
+          <a
+            href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/"
+            target="_blank"
+          >
+            <BigSmallImage
+              bigImageUrl={bag}
+              smallImageUrl={bagSmall}
+            />
+          </a>
         </div>
       </HalfPageBlock>
     </div>
