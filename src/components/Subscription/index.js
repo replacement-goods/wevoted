@@ -15,7 +15,7 @@ const Subscription = () => {
         <InnerContainer>
           <h3>The Basics</h3>
           <a href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/" target="_blank">(Available now via our IndieGoGO campaign)</a>
-          <h4>$24.99 / Month</h4>
+          <h4>$28 / Month</h4>
           <p>It contains <strong>hand soap</strong>, <strong>dish soap</strong>, <strong>laundry detergent pods</strong> and <strong>kitchen garbage bags</strong>.</p>
           <ul className={styles.productFeatures}>
             <li>All Natural</li>

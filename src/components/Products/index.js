@@ -11,7 +11,7 @@ const Products = () => {
     <div className={styles.productsContainer}>
       <HalfPageBlock className={styles.fullLine}>
         <InnerContainer>
-          <h3>The full line</h3>
+          <h3>The Full Line</h3>
           <span className={styles.date}>(Available Fall 2019)</span>
           <p>
             Our full line of high quality all natural home products will be available Fall

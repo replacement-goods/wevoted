@@ -6,7 +6,7 @@
 
   h2 {
     margin: 60px 0;
-    color: $black;
+    color: $black-blue;
 
     @media screen and (min-width: $break-medium) {
       margin: 120px 0;
@@ -28,7 +28,7 @@
     text-align: left;
     font-family: $slab;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 28px;
 
     @media screen and (min-width: $break-medium) {
       font-size: 26px;
