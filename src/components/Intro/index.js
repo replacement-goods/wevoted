@@ -22,7 +22,7 @@ const Intro = ({ withProductImage = false }) => {
         <div className={styles.flexContainer}>
           <div className={styles.textContainer}>
             <p className={styles.tagline}>
-              We sell great household products to make money to defeat right-wing
+              We sell <del><span>basic</span></del><sup>great</sup> household products to make money to defeat right-wing
               politicians.
             </p>
           </div>

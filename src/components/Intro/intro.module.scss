@@ -46,6 +46,28 @@
   line-height: 23px;
   margin: 0;
 
+  del {
+    color: $pink;
+
+    span {
+      color: $black-blue;
+    }
+  }
+
+  sup {
+    position: absolute;
+    font-family: cortado, script;
+    top: -22px;
+    margin-left: -18px;
+    transform: rotate(-12deg);
+    color: $pink;
+
+    @media screen and (min-width: $break-medium) {
+      top: -50px;
+      margin-left: -60px;
+    }
+  }
+
   @media screen and (min-width: $break-medium) {
     font-size: 40px;
     line-height: 50px;
