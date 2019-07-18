@@ -55,6 +55,7 @@ h2 {
   line-height: 4.55rem;
   font-family: $slab;
   text-align: center;
+  font-weight: normal;
 }
 
 h3 {
@@ -71,4 +72,8 @@ h3 {
       color: $black;
     }
   }
+}
+
+h4 {
+  font-weight: normal;
 }
