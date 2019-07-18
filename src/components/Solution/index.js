@@ -3,7 +3,9 @@ import styles from './solution.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import soap from '../../images/soap-bar.png';
 import pin from '../../images/pin.png';
+import pinSmall from '../../images/pin-small.png';
 import HalfPageBlock from '../../elements/HalfPageBlock';
+import BigSmallImage from '../../elements/BigSmallImage';
 
 const Solution = () => {
   return (
@@ -29,7 +31,10 @@ const Solution = () => {
           </h3>
         </InnerContainer>
         <div className={styles.pacImage}>
-          <img src={pin} />
+          <BigSmallImage
+            bigImageUrl={pin}
+            smallImageUrl={pinSmall}
+          />
         </div>
       </HalfPageBlock>
     </div>
