@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Intro from '../components/Intro';
@@ -20,29 +20,50 @@ import textingLarge from '../images/texting-large.jpg';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="We Voted to Unseat Terrible Right Wind Politicians" />
-    <Menu />
-    <Intro withProductImage={true} />
-    <Press />
-    <Problem />
-    <div style={{ margin: '0 auto', maxWidth: '1222px', position: 'relative' }}>
-      <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
-    </div>
-    <Solution />
-    <div style={{ margin: '0 auto', maxWidth: '440px', position: 'relative' }}>
-      <BigSmallImage bigImageUrl={happyFaceLarge} smallImageUrl={happyFace} />
-    </div>
-    <Subscription />
-    <Products />
-    <div style={{ margin: '0 auto', maxWidth: '1440px', position: 'relative' }}>
-      <BigSmallImage bigImageUrl={textingLarge} smallImageUrl={texting} />
-    </div>
-    <About />
-    <FAQ />
-    <Footer />
-  </Layout>
-);
+class IndexPage extends Component {
+  state = {
+    scrolledOver: false,
+  }
+
+  handleScroll = () => {
+    if (window.scrollY > window.innerHeight) {
+      this.setState({ scrolledOver: true });
+    } else {
+      this.setState({ scrolledOver: false });
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  render() {
+    return (
+      <Layout>
+        <SEO title="We Voted to Unseat Terrible Right Wind Politicians" />
+        <Menu />
+        <Intro withProductImage={true} />
+        <Press ref='press' />
+        <Problem />
+        <div style={{ margin: '0 auto', maxWidth: '1222px', position: 'relative' }}>
+          <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
+        </div>
+        <Solution />
+        <div style={{ margin: '0 auto', maxWidth: '440px', position: 'relative' }}>
+          <BigSmallImage bigImageUrl={happyFaceLarge} smallImageUrl={happyFace} />
+        </div>
+        <Subscription />
+        <Products />
+        <div style={{ margin: '0 auto', maxWidth: '1440px', position: 'relative' }}>
+          <BigSmallImage bigImageUrl={textingLarge} smallImageUrl={texting} />
+        </div>
+        <About />
+        <FAQ />
+        <Footer />
+        {this.state.scrolledOver && <CallToAction />}
+      </Layout>
+    );
+  }
+}
 
 export default IndexPage;
