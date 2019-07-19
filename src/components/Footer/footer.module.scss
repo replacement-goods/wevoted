@@ -1,5 +1,11 @@
 @import '../../shared.scss';
 
+.flexContainer {
+  @media screen and (min-width: $break-medium) {
+    display: flex;
+  }
+}
+
 .mainFooter {
   background: $blue;
   @include grayscale;
@@ -10,6 +16,10 @@
   .newsletterForm {
     display: block;
     padding-bottom: 90px;
+
+    @media screen and (min-width: $break-medium) {
+      width: 50%;
+    }
 
     label {
       display: block;
@@ -59,5 +69,9 @@
     width: 52px;
     height: 52px;
     margin-right: 20px;
+  }
+  @media screen and (min-width: $break-medium) {
+    width: 50%;
+    text-align: right;
   }
 }
