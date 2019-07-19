@@ -47,6 +47,8 @@
     color: $black-blue;
     font-size: 18px;
     line-height: 32px;
+    max-width: 460px;
+    margin: 0 auto;
 
     @media screen and (min-width: $break-medium) {
       font-size: 20px;
@@ -63,6 +65,7 @@
   background: $light-grey;
   border-radius: 0.4rem;
   color: $black-blue;
+  max-width: 500px;
 
   @media screen and (min-width: $break-medium) {
     columns: auto 2;

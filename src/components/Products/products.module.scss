@@ -20,6 +20,8 @@
     color: $black-blue;
     font-size: 18px;
     line-height: 32px;
+    max-width: 460px;
+    margin: 0 auto;
 
     @media screen and (min-width: $break-medium) {
       font-size: 20px;
