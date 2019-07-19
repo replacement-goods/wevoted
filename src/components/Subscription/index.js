@@ -1,15 +1,19 @@
 import React from 'react';
 import styles from './subscription.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
-import subscription from '../../images/subscription.png';
 import theBox from '../../images/theBox.png';
+import theBoxSmall from '../../images/theBox-mobile.png';
 import HalfPageBlock from '../../elements/HalfPageBlock';
+import BigSmallImage from '../../elements/BigSmallImage';
 
 const Subscription = () => {
   return (
     <div className={styles.subscriptionContainer}>
       <HalfPageBlock className={styles.boxImage}>
-        <img src={theBox} />
+        <BigSmallImage
+          bigImageUrl={theBox}
+          smallImageUrl={theBoxSmall}
+        />
       </HalfPageBlock>
       <HalfPageBlock className={styles.basics}>
         <InnerContainer>

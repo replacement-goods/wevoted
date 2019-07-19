@@ -5,6 +5,7 @@ import email from '../../images/emailIcon.png';
 import facebook from '../../images/facebookIcon.png';
 import twitter from '../../images/twitterIcon.png';
 import instagram from '../../images/instagramIcon.png';
+import button from '../../images/button.png';
 
 const Footer = () => {
   return (
@@ -13,7 +14,9 @@ const Footer = () => {
         <form className={styles.newsletterForm}>
           <label for="email">Join our mailing list</label>
           <input type="email" name="email" placeholder="Enter your email address" />
-          <button type="submit">&rarr;</button>
+          <button type="submit">
+            <img src={button} />
+          </button>
         </form>
         <div className={styles.socialLinks}>
           <a href="mailto:contact@wevoted.com">
