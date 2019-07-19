@@ -1,7 +1,7 @@
 @import '../../shared.scss';
 
 .ctaButton {
-  background: $button-color;
+  background-color: $button-color;
   border: none;
   outline: none;
   margin: 0 auto;
@@ -16,6 +16,7 @@
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  transition: background-color 0.15s;
 
   @media screen and (min-width: $break-medium) {
     font-size: 20px;
@@ -23,5 +24,9 @@
 
   &.withShadow {
     box-shadow: 0 10px 13px 0 rgba(0, 0, 0, 0.09);
+  }
+
+  &:hover {
+    background-color: $black-blue;
   }
 }
