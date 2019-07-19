@@ -24,19 +24,6 @@ body {
   overflow-x: hidden;
 }
 
-html,
-body {
-  font-size: 10px;
-
-  @media screen and (min-width: $break-medium) {
-    font-size: 15px;
-  }
-
-  @media screen and (min-width: $break-large) {
-    font-size: 22px;
-  }
-}
-
 a {
   color: inherit;
 }
