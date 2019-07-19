@@ -10,7 +10,7 @@ const Problem = () => {
     <div className={styles.problemContainer}>
       <HalfPageBlock hasBottomImage={true} className={styles.leaders}>
         <InnerContainer>
-          <h3 class={styles.whiteText}>Terrible right-wing leaders</h3>
+          <h3 class={styles.whiteText}>Terrible right-wing leaders&hellip;</h3>
           <p>
             Let’s face facts - there is no greater threat to our country and planet than
             these assholes staying in power. On every single issue they are cynical,
@@ -23,7 +23,7 @@ const Problem = () => {
       </HalfPageBlock>
       <HalfPageBlock hasBottomImage={true} className={styles.brands}>
         <InnerContainer>
-          <h3 class={styles.whiteText}>...and the brands that support them</h3>
+          <h3 class={styles.whiteText}>&hellip;and the brands that support them</h3>
           <p>
             But how can we possibly expect to defeat these assholes when literally every
             day we buy products made by companies that are bankrolling them?
