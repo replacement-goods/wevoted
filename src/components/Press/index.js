@@ -7,8 +7,10 @@ const Press = () => {
   return (
     <div className={styles.pressContainer}>
       <InnerContainer>
-        <blockquote>"It's like Newman's Own but for pissed off progressives."</blockquote>
-        <img className={styles.upworthyLogo} src={upworthyLogo} />
+        <div className={styles.flexContainer}>
+          <blockquote>"It's like Newman's Own but for pissed off progressives."</blockquote>
+          <img className={styles.upworthyLogo} src={upworthyLogo} />
+        </div>
       </InnerContainer>
     </div>
   );
