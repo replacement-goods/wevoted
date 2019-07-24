@@ -12,12 +12,39 @@ const Footer = () => {
     <footer className={styles.mainFooter}>
       <InnerContainer>
         <div className={styles.flexContainer}>
-          <form className={styles.newsletterForm}>
+          <form
+            action="https://wevoted.us20.list-manage.com/subscribe/post?u=6a6cf2da5da0bba15800e56c4&amp;id=567078c5cf"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            target="_blank"
+            className={styles.newsletterForm}
+          >
             <label for="email">Join our mailing list</label>
-            <input type="email" name="email" placeholder="Enter your email address" />
+            <input type="email" name="EMAIL" placeholder="Enter your email address" />
             <button type="submit">
               <img src={button} />
             </button>
+            <div id="mce-responses" class="clear">
+              <div
+                class="response"
+                id="mce-error-response"
+                style={{ display: 'none' }}
+              ></div>
+              <div
+                class="response"
+                id="mce-success-response"
+                style={{ display: 'none' }}
+              ></div>
+            </div>
+            <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
+              <input
+                type="text"
+                name="b_6a6cf2da5da0bba15800e56c4_567078c5cf"
+                tabindex="-1"
+                value=""
+              />
+            </div>
           </form>
           <div className={styles.socialLinks}>
             <a href="mailto:contact@wevoted.com">

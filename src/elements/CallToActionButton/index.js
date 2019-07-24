@@ -5,7 +5,7 @@ import styles from './callToActionButton.module.scss';
 const CallToActionButton = ({ withShadow }) => {
   return (
     <a
-      href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/"
+      href="https://mailchi.mp/9360529dd3a4/wevoted"
       target="_blank"
       className={classnames(styles.ctaButton, withShadow && styles.withShadow)}
     >
