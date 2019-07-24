@@ -1,14 +1,49 @@
 @import '../../shared.scss';
 
 .page {
+  max-width: 720px;
+  margin: 0 auto;
   h3 {
     color: $blue;
     text-align: left;
     font-size: 2rem;
     line-height: 2.3rem;
   }
-  p, li {
+  p,
+  li {
     font-size: 1.7rem;
     line-height: 2.3rem;
+  }
+  input {
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid $black-blue;
+    border-radius: 0;
+    appearance: none;
+    width: 310px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    vertical-align: top;
+    color: $black-blue;
+    font-weight: 700;
+
+    &::placeholder {
+      color: $black-blue;
+      font-weight: 700;
+    }
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    appearance: none;
+    background: none;
+    padding: 0;
   }
 }
