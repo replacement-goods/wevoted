@@ -9,4 +9,8 @@
   @media screen and (min-width: $break-medium) {
     padding: 0 70px;
   }
+
+  @media screen and (min-width: $break-large) {
+    padding: 0 125px;
+  }
 }
