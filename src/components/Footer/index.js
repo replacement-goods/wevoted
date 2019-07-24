@@ -32,6 +32,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/wevoted" target="_blank">
               <img src={instagram} />
             </a>
+            <p className={styles.copyright}>Copyright Replacement Goods, Inc 2019</p>
           </div>
         </div>
       </InnerContainer>
