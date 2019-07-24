@@ -15,6 +15,7 @@
     font-size: 14px;
     text-decoration: none;
     color: $black-blue;
+    cursor: pointer;
 
     &:hover {
       color: $blue;
@@ -36,7 +37,9 @@
   display: block;
 }
 
-.navToggle span, .navToggle span:before, .navToggle span:after {
+.navToggle span,
+.navToggle span:before,
+.navToggle span:after {
   border-radius: 1px;
   height: 3px;
   width: 25px;
@@ -50,7 +53,7 @@
   top: -8px;
 }
 .navToggle span:after {
-  bottom: -8px; 
+  bottom: -8px;
 }
 
 .overlay {
@@ -66,13 +69,60 @@
 }
 
 .contactForm {
+  padding: 76px 0;
+  margin: 0 auto;
+  max-width: 320px;
   display: none;
+
+  input,
+  textarea {
+    display: block;
+    margin: 1em 0;
+    width: 100%;
+    border: none;
+    appearance: none;
+    outline: none;
+    background: white;
+    font-size: 18px;
+    line-height: 52px;
+    padding: 0 18px;
+  }
+
+  input[type='submit'] {
+    padding: 0 42px;
+    display: inline-block;
+    width: auto;
+    border-radius: 26px;
+    background: $button-color;
+    cursor: pointer;
+    font-family: $sans;
+    color: $white;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.15s;
+
+    &:hover {
+      background: $black-blue;
+    }
+  }
+
+  @media screen and (min-width: $break-medium) {
+    padding: 100px 0;
+    max-width: 500px;
+
+    input,
+    textarea {
+      font-size: 20px;
+    }
+  }
 }
 
 .mainNav {
   padding: 76px 0;
   margin: 0 auto;
   max-width: 320px;
+  display: none;
 
   a {
     display: block;
@@ -84,6 +134,7 @@
     font-family: $sans;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
   }
 
   @media screen and (min-width: $break-medium) {
@@ -97,6 +148,10 @@
   }
 }
 
+.visible {
+  display: block !important;
+}
+
 .menuOpen {
   .overlay {
     left: 0;
@@ -106,10 +161,11 @@
     background-color: transparent;
   }
 
-  .navToggle span:before, .navToggle span:after {
+  .navToggle span:before,
+  .navToggle span:after {
     top: 0;
   }
-  
+
   .navToggle span:before {
     transform: rotate(45deg);
   }
