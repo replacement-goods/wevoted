@@ -7,7 +7,6 @@ const CallToActionButton = ({ withShadow }) => {
   return (
     <a
       href="/signup/"
-      target="_blank"
       className={classnames(styles.ctaButton, withShadow && styles.withShadow)}
     >
       Join Our Revolution
