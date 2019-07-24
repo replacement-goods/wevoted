@@ -13,7 +13,7 @@ const signup = () => {
       <Menu />
       <Intro />
       <BasicPage>
-        <h2>Sign Up For Updates</h2>
+        <h3>Sign Up For Updates</h3>
         <p>
           Did you know that the household products that you have in your home right now
           are owned by companies that give big money to terrible politicians who support

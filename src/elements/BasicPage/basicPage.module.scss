@@ -1,18 +1,33 @@
 @import '../../shared.scss';
 
 .page {
-  max-width: 720px;
+  max-width: 750px;
   margin: 0 auto;
   h3 {
-    color: $blue;
+    font-family: $slab;
+    color: $black-blue;
     text-align: left;
-    font-size: 2rem;
-    line-height: 2.3rem;
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid rgba($med-grey, 0.5);
+
+    @media screen and (min-width: $break-medium) {
+      font-size: 44px;
+      line-height: 52px;
+    }
   }
   p,
   li {
-    font-size: 1.7rem;
-    line-height: 2.3rem;
+    font-size: 18px;
+    line-height: 27px;
+    color: $black-blue;
+  }
+  form {
+    margin-top: 60px;
+    padding-top: 60px;
+    border-top: 5px solid $white;
   }
   input {
     background: transparent;
