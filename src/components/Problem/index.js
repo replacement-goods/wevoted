@@ -28,7 +28,10 @@ const Problem = () => {
             But how can we possibly expect to defeat these assholes when literally every
             day we buy products made by companies that are bankrolling them?
           </p>
-          <p className={styles.caption}>Just a few of  the thousands of brands with parent companies that support evil right-wing bullshit.</p>
+          <p>
+            Below are just a few of the countless brands from companies that routinely
+            give money to awful right-wing leaders.
+          </p>
         </InnerContainer>
         <div className={styles.badProductsImage}>
           <img src={badProducts} />
