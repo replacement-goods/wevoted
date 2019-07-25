@@ -43,7 +43,6 @@ class IndexPage extends Component {
         <SEO title="We Voted to Unseat Terrible Right Wind Politicians" />
         <Menu />
         <Intro withProductImage={true} />
-        <Press ref='press' />
         <Problem />
         <div style={{ margin: '0 auto', maxWidth: '1222px', position: 'relative' }}>
           <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
