@@ -6,6 +6,10 @@
 
   padding-bottom: 60px;
 
+  @media screen and (min-width: $break-medium) {
+    padding-bottom: 200px;
+  }
+
   h2 {
     margin: 60px 0;
     color: $black-blue;
@@ -31,11 +35,6 @@
     font-family: $slab;
     font-size: 20px;
     line-height: 28px;
-
-    @media screen and (min-width: $break-medium) {
-      font-size: 26px;
-      line-height: 36px;
-    }
   }
   p {
     font-size: 16px;
