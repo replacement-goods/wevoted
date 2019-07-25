@@ -6,7 +6,7 @@ const FAQ = () => {
   return (
     <div className={styles.faqContainer}>
       <InnerContainer>
-        <h2>FAQ</h2>
+        <h2>FAQs</h2>
         <article className={styles.faqContent}>
           <div className={styles.question}>
             <h3>How do we know where the money is going?</h3>
