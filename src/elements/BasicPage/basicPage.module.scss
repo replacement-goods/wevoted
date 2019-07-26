@@ -3,6 +3,11 @@
 .page {
   max-width: 750px;
   margin: 0 auto;
+  padding-bottom: 60px;
+  @media screen and (min-width: $break-medium) {
+    padding-bottom: 120px;
+  }
+
   h3 {
     font-family: $slab;
     color: $black-blue;
