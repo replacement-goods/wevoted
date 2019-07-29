@@ -19,13 +19,13 @@ const AboutPage = () => {
           issues ranging from gun violence to climate change and yet nothing is done?
         </p>
         <p>
-          We can point to gerrymandering, Mitch McConnell, Donald Trump et al but aren’t
+          We can point to gerrymandering, Mitch McConnell, Donald Trump et al, but aren’t
           these just symptoms of a much larger problem?
         </p>
         <p>
           The real issue is that big business has taken over the Republican Party and is
           using it to irresponsibly lower corporate taxes, attack the social safety net,
-          gut regulations, and generally subvert our nation’s democratic institutions.
+          gut regulations and generally subvert our nation’s democratic institutions.
         </p>
         <p>
           Corporations are using their puppet lawmakers to block and roll back badly
@@ -57,7 +57,7 @@ const AboutPage = () => {
           makes the cardboard boxes they ship their products in? It’s unavoidable.
         </p>
         <p>
-          Instead of trying to boycott everyone of these companies to punish them for
+          Instead of trying to boycott every one of these companies to punish them for
           their bullshit, what if we created our own companies that funded the politics we
           actually do like?
         </p>
