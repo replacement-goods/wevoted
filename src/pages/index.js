@@ -9,7 +9,6 @@ import Products from '../components/Products';
 import Subscription from '../components/Subscription';
 import About from '../components/About';
 import Menu from '../components/Menu';
-import Press from '../components/Press';
 import BigSmallImage from '../elements/BigSmallImage';
 import thumbsDown from '../images/thumbs-down.png';
 import thumbsDownLarge from '../images/thumbs-down-large.jpg';
