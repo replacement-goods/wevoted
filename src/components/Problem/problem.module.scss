@@ -1,6 +1,7 @@
 @import '../../shared.scss';
 
 .problemContainer {
+  margin-top: 60px;
   @include grayscale;
 
   h3,
