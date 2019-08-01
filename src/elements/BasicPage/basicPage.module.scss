@@ -32,6 +32,10 @@
     font-size: 18px;
     line-height: 27px;
     color: $black-blue;
+
+    a {
+      color: $blue;
+    }
   }
   form {
     margin-top: 60px;

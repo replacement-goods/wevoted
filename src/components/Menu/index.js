@@ -32,6 +32,7 @@ const Menu = () => {
       </a>
       <div className={styles.overlay}>
         <nav className={classnames(styles.mainNav, !contactVisible && styles.visible)}>
+          <Link to="/about-us">About Us</Link>
           <a
             onClick={() => {
               setContactVisible(true);
@@ -39,6 +40,7 @@ const Menu = () => {
           >
             Contact Us
           </a>
+          <Link to="/press/">Press</Link>
           <a href="https://www.facebook.com/wevotedofficial" target="_blank">
             Facebook
           </a>
