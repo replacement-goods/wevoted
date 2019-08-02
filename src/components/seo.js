@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import recoleta from '../fonts/recoleta.woff';
+import logo from '../images/logo.png';
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -53,6 +54,10 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: logo,
+        }
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -68,6 +73,10 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `twitter:image`,
+          content: logo,
+        }
       ].concat(meta)}
     >
       <link rel="stylesheet" href="https://use.typekit.net/bvu8gcl.css" />
