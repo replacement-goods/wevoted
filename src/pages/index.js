@@ -18,6 +18,7 @@ import texting from '../images/texting.png';
 import textingLarge from '../images/texting-large.jpg';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
+import Plastics from '../components/Plastics';
 
 class IndexPage extends Component {
   state = {
@@ -56,6 +57,7 @@ class IndexPage extends Component {
           <BigSmallImage bigImageUrl={textingLarge} smallImageUrl={texting} />
         </div>
         <About />
+        <Plastics />
         <FAQ />
         <Footer />
         {this.state.scrolledOver && <CallToAction />}
