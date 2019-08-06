@@ -16,7 +16,8 @@ const headlines = [
 
 let title = headlines[0];
 
-const funnel = window && window.location && window.location.search.substring(10);
+const winCheck = typeof window !== 'undefined';
+const funnel = winCheck && window && window.location && window.location.search.substring(10);
 
 if (funnel && funnel <= headlines.length) {
   title = headlines[funnel - 1];
