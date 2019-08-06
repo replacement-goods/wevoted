@@ -40,7 +40,6 @@ const Menu = () => {
           >
             Contact Us
           </a>
-          <Link to="/press/">Press</Link>
           <a href="https://www.facebook.com/wevotedofficial" target="_blank">
             Facebook
           </a>
