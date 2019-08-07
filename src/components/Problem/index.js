@@ -18,7 +18,7 @@ const Problem = () => {
           </p>
         </InnerContainer>
         <div className={styles.problemImage}>
-          <img src={rightWingers} />
+          <img alt="Terrible right-wing politicians" src={rightWingers} />
         </div>
       </HalfPageBlock>
       <HalfPageBlock hasBottomImage={true} className={styles.brands}>
@@ -30,7 +30,7 @@ const Problem = () => {
           </p>
         </InnerContainer>
         <div className={styles.badProductsImage}>
-          <img src={badProducts} />
+          <img alt="Houshold products that support terrible right-wing politicians" src={badProducts} />
         </div>
       </HalfPageBlock>
     </div>

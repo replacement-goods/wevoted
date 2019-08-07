@@ -18,6 +18,7 @@ const Footer = () => {
             id="mc-embedded-subscribe-form"
             name="mc-embedded-subscribe-form"
             target="_blank"
+            rel="noopener noreferrer"
             className={styles.newsletterForm}
           >
             <label for="email">Join our mailing list</label>
@@ -50,13 +51,25 @@ const Footer = () => {
             <a href="mailto:contact@wevoted.com">
               <img src={email} />
             </a>
-            <a href="https://www.facebook.com/wevotedofficial" target="_blank">
+            <a
+              href="https://www.facebook.com/wevotedofficial"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={facebook} />
             </a>
-            <a href="https://www.twitter.com/wevotedofficial" target="_blank">
+            <a
+              href="https://www.twitter.com/wevotedofficial"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={twitter} />
             </a>
-            <a href="https://www.instagram.com/wevoted" target="_blank">
+            <a
+              href="https://www.instagram.com/wevoted"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={instagram} />
             </a>
             <p className={styles.copyright}>Copyright Replacement Goods, Inc 2019</p>

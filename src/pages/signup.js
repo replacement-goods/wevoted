@@ -33,7 +33,7 @@ const signup = () => {
         >
           <input type="email" name="EMAIL" placeholder="Enter your email address" />
           <button type="submit">
-            <img src={button} />
+            <img alt="Submit button arrow" src={button} />
           </button>
           <div id="mce-responses" class="clear">
             <div

@@ -1,0 +1,41 @@
+@import '../../shared.scss';
+
+.teamMember {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.imageColumn {
+  width: 25%;
+  padding-right: 20px;
+  img {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: $break-medium) {
+    padding-right: 60px;
+  }
+}
+
+.textColumn {
+  width: 75%;
+
+  h3 {
+    font-size: 24px;
+    line-height: 27px;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  h4 {
+    font-family: $sans;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: $label-color;
+    margin: 2px 0 32px 0;
+    font-weight: 400;
+  }
+}

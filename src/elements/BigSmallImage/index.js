@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './bigSmallImage.module.scss';
 
-const BigSmallImage = ({ bigImageUrl, smallImageUrl }) => {
+const BigSmallImage = ({ bigImageUrl, smallImageUrl, alt="We Voted" }) => {
   return (
     <div className={styles.container}>
-      <img className={styles.bigImage} src={bigImageUrl} />
-      <img className={styles.smallImage} src={smallImageUrl} />
+      <img alt={alt} className={styles.bigImage} src={bigImageUrl} />
+      <img alt={alt} className={styles.smallImage} src={smallImageUrl} />
     </div>
   );
 };

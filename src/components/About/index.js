@@ -20,7 +20,7 @@ const About = () => {
           </p>
         </InnerContainer>
         <div className={styles.involvedImage}>
-          <img src={bullhorn} />
+          <img src={bullhorn} alt="Hand holding bullhorn aloft" />
         </div>
       </HalfPageBlock>
       <HalfPageBlock hasBottomImage={true} className={styles.helpUs}>
@@ -36,6 +36,7 @@ const About = () => {
           <a
             href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <BigSmallImage
               bigImageUrl={bag}

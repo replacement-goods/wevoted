@@ -37,16 +37,29 @@ const Menu = () => {
             onClick={() => {
               setContactVisible(true);
             }}
+            href="#contact"
           >
             Contact Us
           </a>
-          <a href="https://www.facebook.com/wevotedofficial" target="_blank">
+          <a
+            href="https://www.facebook.com/wevotedofficial"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Facebook
           </a>
-          <a href="https://www.twitter.com/wevotedofficial" target="_blank">
+          <a
+            href="https://www.twitter.com/wevotedofficial"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Twitter
           </a>
-          <a href="https://www.instagram.com/wevoted" target="_blank">
+          <a
+            href="https://www.instagram.com/wevoted"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Instagram
           </a>
           <Link to="/terms/">Terms and Conditions</Link>

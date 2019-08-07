@@ -9,7 +9,7 @@ const Press = () => {
       <InnerContainer>
         <div className={styles.flexContainer}>
           <blockquote>"It's like Newman's Own but for pissed off progressives."</blockquote>
-          <img className={styles.upworthyLogo} src={upworthyLogo} />
+          <img alt="UpWorthy" className={styles.upworthyLogo} src={upworthyLogo} />
         </div>
       </InnerContainer>
     </div>

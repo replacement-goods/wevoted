@@ -20,7 +20,7 @@ const Solution = () => {
           </p>
         </InnerContainer>
         <div className={styles.planImage}>
-          <img src={soap} />
+          <img alt="Bar of We Voted soap" src={soap} />
         </div>
       </HalfPageBlock>
       <HalfPageBlock hasBottomImage={true} className={styles.pac}>
