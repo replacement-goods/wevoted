@@ -33,6 +33,7 @@ const Menu = () => {
       <div className={styles.overlay}>
         <nav className={classnames(styles.mainNav, !contactVisible && styles.visible)}>
           <Link to="/about-us">About Us</Link>
+          <Link to="/team">The Team</Link>
           <a
             onClick={() => {
               setContactVisible(true);
