@@ -1,8 +1,11 @@
 @import '../../shared.scss';
 
 .teamMember {
-  display: flex;
   margin-bottom: 60px;
+}
+
+.flexContainer {
+  display: flex;
 }
 
 .imageColumn {
@@ -41,11 +44,6 @@
     font-weight: 400;
   }
 
-  p {
-    width: calc(140% + 20px);
-    margin-left: calc(-40% - 20px);
-  }
-
   @media screen and (min-width: $break-medium) {
     width: 75%;
 
@@ -58,5 +56,15 @@
       width: 100%;
       margin-left: 0;
     }
+  }
+}
+
+.bioText {
+  width: 100%;
+
+  @media screen and (min-width: $break-medium) {
+    width: 75%;
+    margin-left: 25%;
+    margin-top: -60px;
   }
 }
