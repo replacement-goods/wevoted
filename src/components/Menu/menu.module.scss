@@ -8,18 +8,28 @@
   z-index: 3;
   display: none;
 
-  a {
+  a,
+  .countdown {
     display: inline-block;
     margin-left: 30px;
-    font-family: $slab;
+    font-family: $sans;
     font-size: 14px;
     text-decoration: none;
+    text-transform: uppercase;
     color: $black-blue;
+  }
+  
+  a {
     cursor: pointer;
 
     &:hover {
       color: $blue;
     }
+  }
+
+  .countdown {
+    width: 360px;
+    text-align: left;
   }
 
   @media screen and (min-width: $break-medium) {
