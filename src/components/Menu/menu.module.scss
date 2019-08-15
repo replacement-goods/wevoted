@@ -45,6 +45,14 @@
   padding: 25px;
   cursor: pointer;
   display: block;
+
+  &.mobileCdVisible {
+    top: 50px;
+
+    @media screen and (min-width: $break-medium) {
+      top: -12px;
+    }
+  }
 }
 
 .navToggle span,

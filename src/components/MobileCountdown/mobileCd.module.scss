@@ -1,0 +1,23 @@
+@import '../../shared.scss';
+
+.mobileCdContainer {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  background-color: $yellow;
+  color: $white;
+  @include grayscale;
+
+  .text {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $sans;
+    font-weight: 600;
+  }
+
+  @media screen and (min-width: $break-medium) {
+    display: none;
+  }
+}

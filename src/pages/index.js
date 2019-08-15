@@ -19,11 +19,12 @@ import textingLarge from '../images/texting-large.jpg';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
 import Plastics from '../components/Plastics';
+import MobileCountdown from '../components/MobileCountdown';
 
 class IndexPage extends Component {
   state = {
     scrolledOver: false,
-  }
+  };
 
   handleScroll = () => {
     if (window.scrollY > window.innerHeight) {
@@ -31,7 +32,7 @@ class IndexPage extends Component {
     } else {
       this.setState({ scrolledOver: false });
     }
-  }
+  };
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
@@ -41,7 +42,8 @@ class IndexPage extends Component {
     return (
       <Layout>
         <SEO title="We Voted to Unseat Terrible Right Wind Politicians" />
-        <Menu />
+        <MobileCountdown />
+        <Menu mobileCdVisible={true} />
         <Intro withProductImage={true} />
         <Problem />
         <div style={{ margin: '0 auto', maxWidth: '1222px', position: 'relative' }}>

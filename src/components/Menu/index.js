@@ -2,46 +2,16 @@ import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import classnames from 'classnames';
 import styles from './menu.module.scss';
+import CountdownClock from '../../elements/CountdownClock';
 
-const padInts = num => num.toString().padStart(2, '0');
-
-const doCountdown = target => {
-  const now = new Date().getTime();
-  const distance = target - now;
-  if (distance <= 0) {
-    return false;
-  }
-
-  const minsConst = 1000 * 60;
-  const hoursConst = minsConst * 60;
-  const daysConst = hoursConst * 24;
-
-  const days = padInts(Math.floor(distance / daysConst));
-  const hours = padInts(Math.floor((distance % daysConst) / hoursConst));
-  const mins = padInts(Math.floor((distance % hoursConst) / minsConst));
-  const secs = padInts(Math.floor((distance % minsConst) / 1000));
-
-  const formattedTime = `${days}:${hours}:${mins}:${secs}`;
-
-  return formattedTime;
-}
-
-const Menu = () => {
+const Menu = ({ mobileCdVisible }) => {
   const [open, setOpen] = useState(false);
   const [contactVisible, setContactVisible] = useState(false);
-  const [timeToLaunch, setTimeToLaunch] = useState(doCountdown(countDownDate));
-  const countDownDate = new Date("Sept 12, 2019 12:00:00").getTime();
-  const launchInterval = setInterval(() => {
-    setTimeToLaunch(doCountdown(countDownDate));
-    if (!timeToLaunch) {
-      clearInterval(launchInterval);
-    }
-  }, 100);
 
   return (
     <div className={classnames(styles.menu, open && styles.menuOpen)}>
       <div className={styles.persistentNav}>
-        <span className={styles.countdown}>Our IndieGogo campaign launches in {timeToLaunch}</span>
+        <span className={styles.countdown}>Our IndieGogo campaign launches in <CountdownClock /></span>
         <a
           onClick={() => {
             setOpen(true);
@@ -52,7 +22,7 @@ const Menu = () => {
         </a>
       </div>
       <a
-        className={styles.navToggle}
+        className={classnames(styles.navToggle, mobileCdVisible && styles.mobileCdVisible)}
         onClick={() => {
           setOpen(!open);
           if (!open) {
