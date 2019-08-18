@@ -41,7 +41,7 @@ class IndexPage extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="We Voted to Unseat Terrible Right Wind Politicians" />
+        <SEO title="We Voted to Unseat Terrible Right Wing Politicians" />
         <MobileCountdown />
         <Menu mobileCdVisible={true} />
         <Intro withProductImage={true} />
