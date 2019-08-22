@@ -20,6 +20,8 @@ import AdamBio from '../elements/TeamBios/Adam';
 import adam from '../images/adam-headshot.jpg';
 import SamBio from '../elements/TeamBios/Sam';
 import sam from '../images/sam-headshot.jpg';
+import AiJenBio from '../elements/TeamBios/AiJen';
+import aijen from '../images/aijen-headshot.jpg';
 
 const TeamPage = () => {
   return (
@@ -51,6 +53,12 @@ const TeamPage = () => {
           {{
             headshot: <img src={sam} alt="Sam Youngman, Advisory Board" />,
             bio: <SamBio />
+          }}
+        </TeamMember>
+        <TeamMember name="Ai-Jen Poo" title="Advisory Board">
+          {{
+            headshot: <img src={aijen} alt="Ai-Jen Poo, Advisory Board" />,
+            bio: <AiJenBio />
           }}
         </TeamMember>
         <TeamMember name="Eli Kagan" title="Founder and CEO">
