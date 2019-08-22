@@ -15,7 +15,7 @@ const TovahBio = () => {
         With more than a decade of experience in building digital media and sales
         organizations to millions in revenue, she is ecstatic to now be teamed with
         incredibly passionate people, creating a business that lives its values. Tovah’s
-        dream is to help make We Voted a revolutionary household name; breaking the
+        dream is to help make We Voted® a revolutionary household name; breaking the
         vicious consumer cycle; ending the current reign of terror, and changing the
         landscape of American politics forever.
       </p>

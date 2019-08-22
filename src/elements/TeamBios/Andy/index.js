@@ -14,7 +14,7 @@ const AndyBio = () => {
         He has carried his passion into his career and worked with organizations trying to
         address climate change, fight inequality and ensure a free press. He has over a
         decade of experience developing across the full stack and is excited to bring that
-        to bear on We Voted.
+        to bear on We Voted®.
       </p>
     </div>
   );

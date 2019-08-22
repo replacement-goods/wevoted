@@ -34,7 +34,7 @@ const PressPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            We Voted’s IndieGogo campaign
+            We Voted®’s IndieGogo campaign
           </a>{' '}
           and will include hand soap, dish soap, garbage bags and laundry detergent
           tablets.

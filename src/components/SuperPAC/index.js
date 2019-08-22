@@ -9,7 +9,7 @@ const SuperPAC = () => {
       <InnerContainer>
         <div className={styles.whiteBackground}>
           <img alt="We Voted Super PAC" src={pacSeal} className={styles.pacImage} />
-          <p>The We Voted Super PAC is a wholly independent entity from We Voted (which is owned by Replacement Goods Inc.).</p>
+          <p>The We Voted Super PAC is a wholly independent entity from We Voted® (which is owned by Replacement Goods Inc.).</p>
           <p>The We Voted Super PAC was formed in July 2019 with the following objectives:</p>
           <p>To oppose candidates at all levels of government who are not actively working to:</p>
           <p className={styles.bold}>…enact aggressive climate change legislation guided by science.</p>

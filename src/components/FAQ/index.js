@@ -53,7 +53,7 @@ const FAQ = () => {
               all we're doing is fighting fire with fire. Corporate America already
               bankrolls the Right. All we're doing is trying to help fight back. And
               further, if the courts overturned Citizens United and made what we're doing
-              illegal we would shut We Voted down and dance in the streets.
+              illegal we would shut We Voted® down and dance in the streets.
             </p>
           </div>
           <div className={styles.question}>

@@ -14,7 +14,7 @@ const Solution = () => {
         <InnerContainer>
           <h3>So our plan is to beat them at their own game.</h3>
           <p>
-            We Voted is a different kind of company. It was started with the singular goal
+            We Voted® is a different kind of company. It was started with the singular goal
             of raising money to defeat terrible right-wing politicians and drive them out
             of our government.
           </p>

@@ -14,7 +14,7 @@ const About = () => {
         <InnerContainer>
           <h3>Get involved.</h3>
           <p>
-            We Voted is growing every day. We’re looking for talented people to join our
+            We Voted® is growing every day. We’re looking for talented people to join our
             team and help make a difference. If you’re interested in joining our team send
             us an email. We’d love to hear from you.
           </p>
@@ -29,7 +29,7 @@ const About = () => {
           <p>
             This project is a labor of love. We’ve funded it so far with our own money and
             some generous contributions. Please consider contributing to our IndieGoGo
-            campaign. You’ll get some GREAT products and even some sweet We Voted swag!
+            campaign. You’ll get some GREAT products and even some sweet We Voted® swag!
           </p>
         </InnerContainer>
         <div className={styles.swagImage}>

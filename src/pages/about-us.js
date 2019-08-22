@@ -62,7 +62,7 @@ const AboutPage = () => {
           actually do like?
         </p>
         <p>
-          That’s our plan here at WE VOTED. The idea is simple. When you buy our products
+          That’s our plan here at We Voted®. The idea is simple. When you buy our products
           we take 50% of the profits and use them to fund direct political action against
           these corrupt right-wing assholes.
         </p>
