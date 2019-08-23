@@ -1,0 +1,41 @@
+@import '../../shared.scss';
+
+.container {
+  text-align: center;
+  background: $light-grey;
+  padding-top: 75px;
+
+  @media screen and (min-width: $break-medium) {
+    padding-top: 90px;
+  }
+
+  blockquote {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: $black-blue;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}
+
+.authorImage {
+  display: block;
+  margin: 60px auto 30px auto;
+  max-width: 80px;
+  border-radius: 40px;
+}
+
+.authorName {
+  font-family: $slab;
+  font-size: 18px;
+  color: $black-blue;
+  margin: 0;
+}
+
+.authorTitle {
+  font-size: 14px;
+  color: $label-color;
+  margin: 0;
+  line-height: 20px;
+}

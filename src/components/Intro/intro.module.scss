@@ -3,8 +3,9 @@
 .introSection {
   @include grayscale;
   position: relative;
-  background: $light-grey;
+  background: $white;
   color: $black-blue;
+  padding-top: 20px;
 
   /** remove when press secton comes back **/
   @media screen and (min-width: $break-medium) {
@@ -14,7 +15,7 @@
 
 .logoMobile {
   display: block;
-  margin: 30px auto 0 auto;
+  margin: 0 auto;
   max-width: 127px;
 
   @media screen and (min-width: $break-medium) {
@@ -24,7 +25,7 @@
 
 .logoDesktop {
   display: none;
-  margin: 20px 0 0 30px;
+  margin: 0 0 0 30px;
   max-width: 130px;
 
   @media screen and (min-width: $break-medium) {

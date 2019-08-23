@@ -20,6 +20,8 @@ import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
 import Plastics from '../components/Plastics';
 import MobileCountdown from '../components/MobileCountdown';
+import aijen from '../images/aijen-headshot.jpg';
+import QuotePromo from '../elements/QuotePromo';
 
 class IndexPage extends Component {
   state = {
@@ -45,6 +47,12 @@ class IndexPage extends Component {
         <MobileCountdown />
         <Menu mobileCdVisible={true} />
         <Intro withProductImage={true} />
+        <QuotePromo
+          quote="“For too long corporations have been pouring vast sums of money into extreme right-wing politics. I’m proud to support We Voted® and its goal of leveling the playing field on behalf of our shared progressive ideals.”"
+          author="Ai-Jen Poo"
+          authorImage={aijen}
+          authorTitle="Longtime activist & advocate for social justice"
+        />
         <Problem />
         <div style={{ margin: '0 auto', maxWidth: '1222px', position: 'relative' }}>
           <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />

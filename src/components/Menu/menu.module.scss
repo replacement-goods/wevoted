@@ -2,7 +2,7 @@
 
 .persistentNav {
   position: absolute;
-  top: 6px;
+  top: 26px;
   right: 90px;
   text-align: right;
   z-index: 3;
@@ -40,7 +40,7 @@
 .navToggle {
   position: absolute;
   z-index: 5;
-  top: -12px;
+  top: 8px;
   right: 33px;
   padding: 25px;
   cursor: pointer;
@@ -50,7 +50,7 @@
     top: 50px;
 
     @media screen and (min-width: $break-medium) {
-      top: -12px;
+      top: 8px;
     }
   }
 }
