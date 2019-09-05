@@ -8,5 +8,5 @@
 
 exports.createPages = ({ graphql, actions }) => {
   const { createRedirect } = actions
-  createRedirect({ fromPath: '/google', toPath: 'https://www.google.com', isPermanent: true })
+  createRedirect({ fromPath: '/fundraiser-preview', toPath: 'https://www.indiegogo.com/project/preview/407c08d9?utm_source=website&utm_medium=email&utm_campaign=fundraiser_preview', isPermanent: true })
 }
