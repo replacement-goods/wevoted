@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './problem.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
-import rightWingers from '../../images/right-wingers.png';
+import rightWingers from '../../images/right-wingers.jpg';
 import badProducts from '../../images/bad-products.jpg';
 import HalfPageBlock from '../../elements/HalfPageBlock';
 

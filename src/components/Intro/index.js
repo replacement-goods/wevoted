@@ -18,25 +18,26 @@ const Intro = ({ withProductImage = false }) => {
         <img alt="We Voted" className={styles.logoDesktop} src={logoLarge} />
       </Link>
       {withProductImage && (
-      <InnerContainer>
-        <div className={styles.flexContainer}>
-          <div className={styles.textContainer}>
-            <p className={styles.tagline}>
-              We sell <del><span>basic</span></del><sup>great</sup> household products to make money to defeat right-wing
-              politicians.
-            </p>
+        <InnerContainer>
+          <div className={styles.flexContainer}>
+            <div className={styles.textContainer}>
+              <p className={styles.tagline}>
+                We sell{' '}
+                <del>
+                  <span>basic</span>
+                </del>
+                <sup>great</sup> household products to make money to{' '}
+                <span className={styles.pinkText}>defeat right-wing politicians.</span>
+              </p>
+            </div>
+            <div className={styles.ctaContainer}>
+              <CallToActionButton />
+            </div>
+            <div className={styles.introImage}>
+              <BigSmallImage bigImageUrl={bottlesLarge} smallImageUrl={bottles} />
+            </div>
           </div>
-          <div className={styles.ctaContainer}>
-            <CallToActionButton />
-          </div>
-          <div className={styles.introImage}>
-            <BigSmallImage
-              bigImageUrl={bottlesLarge}
-              smallImageUrl={bottles}
-            />
-          </div>
-        </div>
-      </InnerContainer>
+        </InnerContainer>
       )}
     </div>
   );
