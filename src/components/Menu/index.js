@@ -3,9 +3,10 @@ import { Link } from 'gatsby';
 import classnames from 'classnames';
 import styles from './menu.module.scss';
 import CountdownClock from '../../elements/CountdownClock';
+import { useKeyPress } from '../../functional/hooks';
 
 const Menu = ({ mobileCdVisible }) => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useKeyPress('Escape');
   const [contactVisible, setContactVisible] = useState(false);
 
   return (
