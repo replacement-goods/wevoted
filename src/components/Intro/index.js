@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import styles from './intro.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import bottles from '../../images/bottles.jpg';
-import bottlesLarge from '../../images/bottles-large.png';
+import bottlesLarge from '../../images/bottles-large.jpg';
 import logoImage from '../../images/logo.png';
 import logoLarge from '../../images/logo-large.png';
 import CallToActionButton from '../../elements/CallToActionButton';
