@@ -22,6 +22,7 @@ import Plastics from '../components/Plastics';
 import MobileCountdown from '../components/MobileCountdown';
 import aijen from '../images/aijen-headshot.jpg';
 import QuotePromo from '../elements/QuotePromo';
+import Press from '../components/Press';
 
 class IndexPage extends Component {
   state = {
@@ -47,6 +48,7 @@ class IndexPage extends Component {
         <MobileCountdown />
         <Menu mobileCdVisible={true} />
         <Intro withProductImage={true} />
+        <Press />
         <QuotePromo
           quote="“For too long corporations have been pouring vast sums of money into extreme right-wing politics. I’m proud to support We Voted® and its goal of leveling the playing field on behalf of our shared progressive ideals.”"
           author="Ai-Jen Poo"
