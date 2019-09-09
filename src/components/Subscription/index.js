@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './subscription.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
-import theBox from '../../images/theBox.png';
+import theBox from '../../images/theBox.jpg';
 import theBoxSmall from '../../images/theBox-mobile.png';
 import HalfPageBlock from '../../elements/HalfPageBlock';
 import BigSmallImage from '../../elements/BigSmallImage';
@@ -20,9 +20,9 @@ const Subscription = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            (Available now via our IndieGoGO campaign)
+            Available to pre-buy now via our Indiegogo campaign
           </a>
-          <h4>$28 / Month</h4>
+          <h4>$24.99 / Month</h4>
           <p>
             It contains <strong>hand soap</strong>, <strong>dish soap</strong>,{' '}
             <strong>laundry detergent pods</strong> and{' '}

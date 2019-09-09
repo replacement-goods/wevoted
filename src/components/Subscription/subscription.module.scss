@@ -9,13 +9,8 @@
 .boxImage {
   background: $yellow;
   padding-top: 0 !important;
-  margin-top: -40px;
   @media screen and (min-width: $break-medium) {
     margin-top: 0;
-
-    img {
-      margin-top: -70px;
-    }
   }
 }
 

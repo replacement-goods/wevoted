@@ -37,6 +37,7 @@ const Menu = ({ mobileCdVisible }) => {
         <nav className={classnames(styles.mainNav, !contactVisible && styles.visible)}>
           <Link to="/about-us">About Us</Link>
           <Link to="/team">The Team</Link>
+          <Link to="/invest-in-we-voted">Invest in We Voted</Link>
           <a
             onClick={() => {
               setContactVisible(true);

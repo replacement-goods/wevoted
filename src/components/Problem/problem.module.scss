@@ -15,15 +15,9 @@
 }
 
 .leaders {
-  background: $peach;
+  background: $red;
 }
 
 .brands {
   background: $yellow;
-  @media screen and (min-width: $break-large) {
-    h3 {
-      width: 130%;
-      margin-left: -15% !important;
-    }
-  }
 }

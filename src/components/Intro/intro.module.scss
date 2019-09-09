@@ -3,13 +3,17 @@
 .introSection {
   @include grayscale;
   position: relative;
-  background: $white;
+  background: $light-grey;
   color: $black-blue;
   padding-top: 20px;
 
   /** remove when press secton comes back **/
   @media screen and (min-width: $break-medium) {
     padding-bottom: 60px;
+  }
+
+  &.whiteBg {
+    background: $white;
   }
 }
 
@@ -41,7 +45,7 @@
 
   @media screen and (min-width: $break-medium) {
     max-width: 600px;
-    margin: 110px 0 0 0;
+    margin: 280px 0 0 0;
   }
 }
 
@@ -81,6 +85,10 @@
   }
 }
 
+.pinkText {
+  color: $pink;
+}
+
 .introImage {
   max-width: 375px;
   margin: 0 auto;
@@ -98,8 +106,7 @@
 
 .ctaContainer {
   order: 3;
-  /* margin: 0 auto 47px auto; */
-  margin: 0 auto;
+  margin: 0 auto 47px auto;
 
   @media screen and (min-width: $break-medium) {
     margin: 90px 0;
