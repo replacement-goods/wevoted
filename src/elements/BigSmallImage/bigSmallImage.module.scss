@@ -1,13 +1,5 @@
 @import '../../shared.scss';
 
-.container {
-  margin-top: 40px;
-
-  @media screen and (min-width: $break-medium) {
-    margin-top: 70px;
-  }
-}
-
 .bigImage {
   display: none;
 

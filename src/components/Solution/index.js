@@ -6,6 +6,7 @@ import pin from '../../images/pin.jpg';
 import pinSmall from '../../images/pin-small.png';
 import HalfPageBlock from '../../elements/HalfPageBlock';
 import BigSmallImage from '../../elements/BigSmallImage';
+import { Link } from 'gatsby';
 
 const Solution = () => {
   return (
@@ -29,6 +30,7 @@ const Solution = () => {
             Literally half of our profits go directly to the cause of driving the bastards
             out of office.
           </h3>
+          <p><Link to="/about-us">Learn more</Link></p>
         </InnerContainer>
         <div className={styles.pacImage}>
           <BigSmallImage

@@ -54,16 +54,16 @@ class IndexPage extends Component {
           authorTitle="Longtime activist & advocate for social justice"
         />
         <Problem />
-        <div style={{ margin: '0 auto', maxWidth: '1222px', position: 'relative' }}>
+        <div style={{ margin: '0 auto', paddingTop: '50px', maxWidth: '1222px', position: 'relative' }}>
           <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
         </div>
         <Solution />
-        <div style={{ margin: '0 auto', maxWidth: '440px', position: 'relative' }}>
+        <div style={{ margin: '0 auto', paddingTop: '50px', maxWidth: '440px', position: 'relative' }}>
           <BigSmallImage bigImageUrl={happyFaceLarge} smallImageUrl={happyFace} />
         </div>
         <Subscription />
         <Products />
-        <div style={{ margin: '0 auto', maxWidth: '1440px', position: 'relative' }}>
+        <div style={{ margin: '0 auto', paddingTop: '50px', maxWidth: '1440px', position: 'relative' }}>
           <BigSmallImage bigImageUrl={textingLarge} smallImageUrl={texting} />
         </div>
         <About />
