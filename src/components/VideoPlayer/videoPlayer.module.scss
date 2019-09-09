@@ -13,11 +13,27 @@
 }
 
 .videoIframeContainer {
-  margin: 100px;
+  margin: 100px 20px;
+
+  @media screen and (min-width: $break-medium) {
+    margin: 50px 200px;
+  }
 }
 
 .menuOpen {
   .overlay {
     left: 0;
+  }
+}
+
+.playButton {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  width: 139px;
+  margin-left: -70px;
+
+  @media screen and (min-width: $break-medium) {
+    left: 73%;
   }
 }
