@@ -29,5 +29,12 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: `GTM-W3TPBL5`,
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: `web` },
+    }
   ],
 }
