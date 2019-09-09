@@ -34,7 +34,8 @@ module.exports = {
       options: {
         id: `GTM-W3TPBL5`,
         includeInDevelopment: false,
-        defaultDataLayer: { platform: `web` },
-    }
+        defaultDataLayer: { platform: "web" },
+      },
+    },
   ],
 }
