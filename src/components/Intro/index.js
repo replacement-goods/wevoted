@@ -12,7 +12,7 @@ import BigSmallImage from '../../elements/BigSmallImage';
 
 const Intro = ({ withProductImage = false }) => {
   return (
-    <div className={styles.introSection}>
+    <div className={classnames(styles.introSection, withProductImage && styles.whiteBg)}>
       <Link to="/">
         <img alt="We Voted" className={styles.logoMobile} src={logoImage} />
         <img alt="We Voted" className={styles.logoDesktop} src={logoLarge} />

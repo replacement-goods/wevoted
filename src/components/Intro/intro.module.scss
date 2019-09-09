@@ -3,13 +3,17 @@
 .introSection {
   @include grayscale;
   position: relative;
-  background: $white;
+  background: $light-grey;
   color: $black-blue;
   padding-top: 20px;
 
   /** remove when press secton comes back **/
   @media screen and (min-width: $break-medium) {
     padding-bottom: 60px;
+  }
+
+  &.whiteBg {
+    background: $white;
   }
 }
 
