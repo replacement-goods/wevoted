@@ -42,7 +42,6 @@ const Menu = ({ mobileCdVisible }) => {
             onClick={() => {
               setContactVisible(true);
             }}
-            href="#contact"
           >
             Contact Us
           </a>

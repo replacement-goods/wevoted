@@ -29,6 +29,7 @@ const Products = () => {
       </HalfPageBlock>
       <HalfPageBlock className={styles.productsImage}>
         <BigSmallImage
+          alt="An arrangement of We Voted brand cleaning supplies"
           bigImageUrl={products}
           smallImageUrl={productsSmall}
         />

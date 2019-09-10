@@ -10,7 +10,7 @@ const Monthly = () => {
         <h3>Every month you'll get a box like this.</h3>
       </HalfPageBlock>
       <HalfPageBlock className={styles.imageContainer}>
-        <img src={monthlyBox} />
+        <img alt="cardboard box with We Voted branding" src={monthlyBox} />
       </HalfPageBlock>
     </div>
   );

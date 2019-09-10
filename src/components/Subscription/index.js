@@ -10,7 +10,7 @@ const Subscription = () => {
   return (
     <div className={styles.subscriptionContainer}>
       <HalfPageBlock className={styles.boxImage}>
-        <BigSmallImage bigImageUrl={theBox} smallImageUrl={theBoxSmall} />
+        <BigSmallImage alt="Open box containing We Voted brand cleaning supplies" bigImageUrl={theBox} smallImageUrl={theBoxSmall} />
       </HalfPageBlock>
       <HalfPageBlock className={styles.basics}>
         <InnerContainer>

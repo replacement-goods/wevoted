@@ -20,7 +20,7 @@ const About = () => {
           </p>
         </InnerContainer>
         <div className={styles.involvedImage}>
-          <img src={bullhorn} alt="Hand holding bullhorn aloft" />
+          <img src={bullhorn} alt="Hand holding a bullhorn" />
         </div>
       </HalfPageBlock>
       <HalfPageBlock hasBottomImage={true} className={styles.helpUs}>
@@ -39,6 +39,7 @@ const About = () => {
             rel="noopener noreferrer"
           >
             <BigSmallImage
+              alt="Tote bag with We Voted branding"
               bigImageUrl={bag}
               smallImageUrl={bagSmall}
             />

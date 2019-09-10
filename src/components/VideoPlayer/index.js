@@ -15,7 +15,7 @@ const VideoPlayer = ({ children }) => {
           setOpen(true);
         }}
       >
-        <img src={play} />
+        <img alt="click to launch the video player" src={play} />
       </a>
       <div className={styles.overlay}>
         <a

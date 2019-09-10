@@ -10,7 +10,7 @@ const Plastics = () => {
   return (
     <div className={styles.plasticsContainer}>
       <HalfPageBlock className={styles.cartonsImage}>
-        <BigSmallImage bigImageUrl={cartonsLarge} smallImageUrl={cartonsSmall} />
+        <BigSmallImage alt="Paper cartons of We Voted brand cleaning supplies" bigImageUrl={cartonsLarge} smallImageUrl={cartonsSmall} />
       </HalfPageBlock>
       <HalfPageBlock className={styles.plastics}>
         <InnerContainer>

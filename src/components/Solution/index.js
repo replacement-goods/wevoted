@@ -34,6 +34,7 @@ const Solution = () => {
         </InnerContainer>
         <div className={styles.pacImage}>
           <BigSmallImage
+            alt="We Voted Super PAC pin"
             bigImageUrl={pin}
             smallImageUrl={pinSmall}
           />

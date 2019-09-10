@@ -24,7 +24,7 @@ const Footer = () => {
             <label for="email">Join our mailing list</label>
             <input type="email" name="EMAIL" placeholder="Enter your email address" />
             <button type="submit">
-              <img src={button} />
+              <img alt="Click here to submit your email address" src={button} />
             </button>
             <div id="mce-responses" class="clear">
               <div
@@ -49,28 +49,28 @@ const Footer = () => {
           </form>
           <div className={styles.socialLinks}>
             <a href="mailto:contact@wevoted.com">
-              <img src={email} />
+              <img alt="email icon" src={email} />
             </a>
             <a
               href="https://www.facebook.com/wevotedofficial"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={facebook} />
+              <img alt="facebook icon" src={facebook} />
             </a>
             <a
               href="https://www.twitter.com/wevotedofficial"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={twitter} />
+              <img alt="twitter icon" src={twitter} />
             </a>
             <a
               href="https://www.instagram.com/wevoted"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={instagram} />
+              <img alt="instagram icon" src={instagram} />
             </a>
             <p className={styles.copyright}>Copyright Replacement Goods, Inc 2019</p>
           </div>

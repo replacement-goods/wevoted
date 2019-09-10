@@ -58,14 +58,14 @@ class IndexPage extends Component {
         />
         <Problem />
         <div style={{ margin: '0 auto', paddingTop: '23px', maxWidth: '1222px', position: 'relative' }}>
-          <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
+          <BigSmallImage alt="Disappointed woman thinking 'Seriously Mrs. Meyer? WTF?'" bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
         </div>
         <Solution />
         <Monthly />
         <Subscription />
         <Products />
         <div style={{ margin: '0 auto', paddingTop: '50px', maxWidth: '1440px', position: 'relative' }}>
-          <BigSmallImage bigImageUrl={textingLarge} smallImageUrl={texting} />
+          <BigSmallImage alt="Woman typing on a cell phone thinking 'Sign me up!'" bigImageUrl={textingLarge} smallImageUrl={texting} />
         </div>
         <About />
         <Plastics />

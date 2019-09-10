@@ -35,7 +35,7 @@ const Intro = ({ withProductImage = false }) => {
               <CallToActionButton />
             </div>
             <div className={styles.introImage}>
-              <BigSmallImage bigImageUrl={bottlesLarge} smallImageUrl={bottles} />
+              <BigSmallImage alt="bottles of We Voted brand cleaning supplies" bigImageUrl={bottlesLarge} smallImageUrl={bottles} />
             </div>
           </div>
           <VideoPlayer>
