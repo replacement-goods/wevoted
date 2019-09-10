@@ -64,7 +64,7 @@ class IndexPage extends Component {
         <Monthly />
         <Subscription />
         <Products />
-        <div style={{ margin: '0 auto', paddingTop: '50px', maxWidth: '1440px', position: 'relative' }}>
+        <div style={{ margin: '0 auto', maxWidth: '1440px', position: 'relative' }}>
           <BigSmallImage alt="Woman typing on a cell phone thinking 'Sign me up!'" bigImageUrl={textingLarge} smallImageUrl={texting} />
         </div>
         <About />
