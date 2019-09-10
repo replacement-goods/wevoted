@@ -37,3 +37,43 @@
     left: 73%;
   }
 }
+
+.close {
+  position: absolute;
+  z-index: 6;
+  top: 8px;
+  right: 33px;
+  padding: 25px;
+  cursor: pointer;
+  display: block;
+}
+
+.close span,
+.close span:before,
+.close span:after {
+  border-radius: 1px;
+  height: 3px;
+  width: 25px;
+  background: $white;
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 0.3s ease-in-out;
+}
+
+.close span {
+  background-color: transparent;
+}
+
+.close span:before,
+.close span:after {
+  top: 0;
+}
+
+.close span:before {
+  transform: rotate(45deg);
+}
+
+.close span:after {
+  transform: rotate(-45deg);
+}

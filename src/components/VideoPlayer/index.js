@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classnames from 'classnames';
 import styles from './videoPlayer.module.scss';
 import { useKeyPress } from '../../functional/hooks';
@@ -18,6 +18,14 @@ const VideoPlayer = ({ children }) => {
         <img src={play} />
       </a>
       <div className={styles.overlay}>
+        <a
+          className={styles.close}
+          onClick={() => {
+            setOpen(false);
+          }}
+        >
+          <span></span>
+        </a>
         <div className={styles.videoIframeContainer}>
           {open && children}
         </div>
