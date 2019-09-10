@@ -2,8 +2,8 @@ import React from 'react';
 import InnerContainer from '../../elements/InnerContainer';
 import styles from './about.module.scss';
 import HalfPageBlock from '../../elements/HalfPageBlock';
-import bullhorn from '../../images/bullhorn.png';
-import bag from '../../images/bag.png';
+import bullhorn from '../../images/bullhorn.jpg';
+import bag from '../../images/bag.jpg';
 import bagSmall from '../../images/bag-small.png';
 import BigSmallImage from '../../elements/BigSmallImage';
 
