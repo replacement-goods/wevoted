@@ -23,6 +23,7 @@ import MobileCountdown from '../components/MobileCountdown';
 import aijen from '../images/aijen-headshot.jpg';
 import QuotePromo from '../elements/QuotePromo';
 import Press from '../components/Press';
+import Monthly from '../components/Monthly';
 
 class IndexPage extends Component {
   state = {
@@ -60,9 +61,7 @@ class IndexPage extends Component {
           <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
         </div>
         <Solution />
-        <div style={{ margin: '0 auto', paddingTop: '50px', maxWidth: '440px', position: 'relative' }}>
-          <BigSmallImage bigImageUrl={happyFaceLarge} smallImageUrl={happyFace} />
-        </div>
+        <Monthly />
         <Subscription />
         <Products />
         <div style={{ margin: '0 auto', paddingTop: '50px', maxWidth: '1440px', position: 'relative' }}>

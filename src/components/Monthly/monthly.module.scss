@@ -1,0 +1,25 @@
+@import '../../shared.scss';
+
+.monthlyContainer {
+  text-align: center;
+  
+  @media screen and (min-width: $break-medium) {
+    display: flex;
+  }
+
+  h3 {
+    max-width: 360px;
+    text-align: center;
+    color: $black-blue;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 40px;
+    position: relative;
+    top: calc(50% - 50px);
+    transform: translateY(-50%);
+  }
+
+  .imageContainer {
+    padding-left: 100px;
+  }
+}
