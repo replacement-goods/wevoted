@@ -56,7 +56,7 @@ class IndexPage extends Component {
           authorTitle="Longtime activist & advocate for social justice"
         />
         <Problem />
-        <div style={{ margin: '0 auto', paddingTop: '50px', maxWidth: '1222px', position: 'relative' }}>
+        <div style={{ margin: '0 auto', paddingTop: '23px', maxWidth: '1222px', position: 'relative' }}>
           <BigSmallImage bigImageUrl={thumbsDownLarge} smallImageUrl={thumbsDown} />
         </div>
         <Solution />
