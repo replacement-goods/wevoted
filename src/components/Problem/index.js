@@ -24,7 +24,7 @@ const Problem = () => {
       <HalfPageBlock hasBottomImage={true} className={styles.brands}>
         <InnerContainer>
           <h3 class={styles.whiteText}>
-            &hellip;and the friendly household brands that support them
+            &hellip;and the friendly household brands that support them.
           </h3>
           <p>
             But how can we possibly expect to defeat these assholes when literally every

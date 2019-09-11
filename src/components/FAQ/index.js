@@ -91,6 +91,32 @@ const FAQ = () => {
               problem. But it's too important not to try.
             </p>
           </div>
+          <div className={styles.question}>
+            <h3>How is this legal?</h3>
+            <p>
+              Great question. First of all, it shouldn't be. But it is. We are a
+              for-profit California C Corporation. Totally legal. As a company we are
+              committed to pouring half of our profits into our super PAC. Totally legal.
+              And that super PAC is runs targeted political ads aimed at throwing corrupt
+              right-wing monsters out of office. Totally legal. The funny part is that
+              we're doing exactly what pretty much every other corporation in America is
+              doing... We're just being transparent about it.
+            </p>
+          </div>
+          <div className={styles.question}>
+            <h3>What the heck do you guys know about making high quality products?</h3>
+            <p>
+              This is going to really shock you, but most of the companies making soaps
+              are using formulations that have been around for a hundred years. For awhile
+              companies were using synthetic compounds and weird chemicals in their
+              products but that's mostly stopped. The innovative stuff happening in the
+              world of soaps and cleaners has to do with using plant extracts like thymol
+              which is an extract from the herb thyme. Thymol is used in place of harsh
+              alcohols in things like wipes. Anyway, we're synthesizing all natural old
+              school formulations with some of these newer plant based additives to make
+              some great products. They are simple, high quality and all natural.
+            </p>
+          </div>
         </article>
       </InnerContainer>
     </div>

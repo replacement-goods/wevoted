@@ -28,8 +28,15 @@ const About = () => {
           <h3>We really need your help.</h3>
           <p>
             This project is a labor of love. We’ve funded it so far with our own money and
-            some generous contributions. Please consider contributing to our IndieGoGo
-            campaign. You’ll get some GREAT products and even some sweet We Voted® swag!
+            some generous contributions. Please consider contributing to{' '}
+            <a
+              href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              our IndieGoGo campaign
+            </a>
+            . You’ll get some GREAT products and even some sweet We Voted® swag!
           </p>
         </InnerContainer>
         <div className={styles.swagImage}>
