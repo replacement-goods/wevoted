@@ -41,14 +41,13 @@ const Intro = ({ withProductImage = false }) => {
           <VideoPlayer>
             <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
               <iframe
-                src="https://player.vimeo.com/video/358933749?autoplay=1&title=0&byline=0&portrait=0"
+                src="https://www.youtube.com/embed/pHnkOLLlBUQ"
                 style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
                 frameborder="0"
-                allow="autoplay; fullscreen"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
             </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
           </VideoPlayer>
         </InnerContainer>
       )}
