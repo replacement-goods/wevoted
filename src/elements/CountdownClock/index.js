@@ -25,7 +25,7 @@ const doCountdown = target => {
 
 const CountdownClock = () => {
   const [timeToLaunch, setTimeToLaunch] = useState('00:00:00:00');
-  const countDownDate = new Date("Sept 12, 2019 12:00:00").getTime();
+  const countDownDate = new Date("Sept 12, 2019 09:30:00").getTime();
   const launchInterval = setInterval(() => {
     setTimeToLaunch(doCountdown(countDownDate));
     if (!timeToLaunch) {
