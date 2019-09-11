@@ -20,23 +20,8 @@ exports.createPages = ({ graphql, actions }) => {
     isPermanent: true,
   });
   createRedirect({
-    fromPath: '/aplaunch',
-    toPath: 'https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=twitter&utm_medium=referral&utm_campaign=AdamParkhomenko_launch_video',
-    isPermanent: true,
-  });
-  createRedirect({
-    fromPath: '/twlaunch',
-    toPath: 'https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=twitter&utm_medium=referral&utm_campaign=wevotedofficial_launch_video',
-    isPermanent: true,
-  })
-  createRedirect({
     fromPath: '/twitter',
     toPath: 'https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=twitter&utm_medium=referral&utm_campaign=launch_video',
-    isPermanent: true,
-  });
-  createRedirect({
-    fromPath: '/fblaunch',
-    toPath: 'https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=facebook&utm_medium=referral&utm_campaign=wevotedofficial_launch_video',
     isPermanent: true,
   });
   createRedirect({
@@ -45,8 +30,18 @@ exports.createPages = ({ graphql, actions }) => {
     isPermanent: true,
   });
   createRedirect({
-    fromPath: '/ytlaunch',
+    fromPath: '/youtube',
     toPath: 'https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=youtube&utm_medium=referral&utm_campaign=launch_video',
+    isPermanent: true,
+  });
+  createRedirect({
+    fromPath: '/reddit',
+    toPath: 'https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=reddit&utm_medium=referral&utm_campaign=launch_video',
+    isPermanent: true,
+  });
+  createRedirect({
+    fromPath: '/instagram',
+    toPath: 'https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=instagram&utm_medium=referral&utm_campaign=launch_video',
     isPermanent: true,
   });
 };
