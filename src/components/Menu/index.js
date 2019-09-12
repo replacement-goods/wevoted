@@ -12,7 +12,13 @@ const Menu = ({ mobileCdVisible }) => {
   return (
     <div className={classnames(styles.menu, open && styles.menuOpen)}>
       <div className={styles.persistentNav}>
-        <span className={styles.countdown}>Our IndieGogo campaign launches in <CountdownClock /></span>
+        <a
+          href="https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=wevoted.com&utm_medium=referral&utm_campaign=menu_link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Support out Indiegogo campaign
+        </a>
         <a
           onClick={() => {
             setOpen(true);
@@ -23,7 +29,10 @@ const Menu = ({ mobileCdVisible }) => {
         </a>
       </div>
       <a
-        className={classnames(styles.navToggle, mobileCdVisible && styles.mobileCdVisible)}
+        className={classnames(
+          styles.navToggle,
+          mobileCdVisible && styles.mobileCdVisible,
+        )}
         onClick={() => {
           setOpen(!open);
           if (!open) {

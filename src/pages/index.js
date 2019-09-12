@@ -46,8 +46,7 @@ class IndexPage extends Component {
     return (
       <Layout>
         <SEO title="We Voted to Unseat Terrible Right Wing Politicians" />
-        <MobileCountdown />
-        <Menu mobileCdVisible={true} />
+        <Menu/>
         <Intro withProductImage={true} />
         <Press />
         <QuotePromo

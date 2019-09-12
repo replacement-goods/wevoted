@@ -30,7 +30,7 @@ const About = () => {
             This project is a labor of love. We’ve funded it so far with our own money and
             some generous contributions. Please consider contributing to{' '}
             <a
-              href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/"
+              href="https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=wevoted.com&utm_medium=referral&utm_campaign=about_section"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -41,7 +41,7 @@ const About = () => {
         </InnerContainer>
         <div className={styles.swagImage}>
           <a
-            href="https://www.indiegogo.com/projects/these-home-goods-defeat-right-wing-politicians/"
+            href="https://www.indiegogo.com/projects/we-voted-our-soaps-defeat-right-wing-politicians/?utm_source=wevoted.com&utm_medium=referral&utm_campaign=about_secton"
             target="_blank"
             rel="noopener noreferrer"
           >
