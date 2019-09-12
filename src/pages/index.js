@@ -10,7 +10,7 @@ import Subscription from '../components/Subscription';
 import About from '../components/About';
 import Menu from '../components/Menu';
 import BigSmallImage from '../elements/BigSmallImage';
-import thumbsDown from '../images/thumbs-down.png';
+import thumbsDown from '../images/thumbs-down.jpg';
 import thumbsDownLarge from '../images/thumbs-down-large.jpg';
 import happyFace from '../images/happy-face.png';
 import happyFaceLarge from '../images/happy-face-large.jpg';
