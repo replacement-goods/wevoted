@@ -17,7 +17,7 @@ const Menu = ({ mobileCdVisible }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Support out Indiegogo campaign
+          Support our Indiegogo campaign
         </a>
         <a
           onClick={() => {
