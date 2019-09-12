@@ -94,6 +94,12 @@
   margin: 0 auto;
   display: block;
 
+  img {
+    max-width: calc(100% + 70px);
+    margin-left: -35px;
+    margin-right: -35px;
+  }
+
   @media screen and (min-width: $break-medium) {
     position: absolute;
     top: 0;
@@ -101,6 +107,12 @@
     width: 860px;
     max-width: none;
     z-index: 0;
+
+    img {
+      max-width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 }
 
