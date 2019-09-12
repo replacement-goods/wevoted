@@ -22,7 +22,7 @@ const Subscription = () => {
           >
             Available to pre-buy now via our Indiegogo campaign
           </a>
-          <h4>$24.99 / Month</h4>
+          <h4>$25 / Month</h4>
           <p>
             It contains <strong>hand soap</strong>, <strong>dish soap</strong>,{' '}
             <strong>laundry detergent pods</strong> and{' '}

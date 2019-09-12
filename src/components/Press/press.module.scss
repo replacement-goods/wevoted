@@ -15,7 +15,6 @@
     z-index: 1;
     margin: 0 auto;
     max-width: 210px;
-    display: none;
     
     @media screen and (min-width: $break-medium) {
       max-width: none;
@@ -28,12 +27,12 @@
 }
 
 .upworthyLogo {
-  display: none;
+  display: inline-block;
   max-width: 80px;
   margin: 15px auto;
 
   @media screen and (min-width: $break-medium) {
-    margin: 0 10px 0 0;
+    margin: 0 25px 0 0;
   }
 }
 

@@ -43,7 +43,7 @@ const AboutPage = () => {
           We had always assumed that it was just the “evil companies” like Exxon and Koch
           Industries, but we were so very wrong. The largest enablers of the
           arch-conservative Federalist Society (the spawning ground for the Brett
-          Kavanuagh’s of the world) are Microsoft and Google. The Heritage Society, the
+          Kavanuaghs of the world) are Microsoft and Google. The Heritage Society, the
           Club for Growth, fucking ALEC are all being quietly underwritten by big
           corporations and the powerful trade organizations that they launder their money
           and influence through. This is how Republicans are making huge gains. Corporate

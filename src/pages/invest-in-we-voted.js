@@ -5,6 +5,7 @@ import Menu from '../components/Menu';
 import Intro from '../components/Intro';
 import BasicPage from '../elements/BasicPage';
 import Footer from '../components/Footer';
+import button from '../images/button.png';
 
 const InvestPage = () => {
   return (
@@ -42,6 +43,38 @@ const InvestPage = () => {
           If this is something you might be interested in, fill out the form below and
           we’ll contact you pertinent updates.
         </p>
+        <form
+          action="https://wevoted.us20.list-manage.com/subscribe/post?u=6a6cf2da5da0bba15800e56c4&amp;id=567078c5cf"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          target="_blank"
+        >
+          <input type="email" name="EMAIL" placeholder="Enter your email address" />
+          <button type="submit">
+            <img alt="Submit button arrow" src={button} />
+          </button>
+          <div id="mce-responses" class="clear">
+            <div
+              class="response"
+              id="mce-error-response"
+              style={{ display: 'none' }}
+            ></div>
+            <div
+              class="response"
+              id="mce-success-response"
+              style={{ display: 'none' }}
+            ></div>
+          </div>
+          <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
+            <input
+              type="text"
+              name="b_6a6cf2da5da0bba15800e56c4_567078c5cf"
+              tabindex="-1"
+              value=""
+            />
+          </div>
+        </form>
       </BasicPage>
       <Footer />
     </Layout>
