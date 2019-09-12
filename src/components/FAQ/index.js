@@ -97,7 +97,7 @@ const FAQ = () => {
               Great question. First of all, it shouldn't be. But it is. We are a
               for-profit California C Corporation. Totally legal. As a company we are
               committed to pouring half of our profits into our super PAC. Totally legal.
-              And that super PAC is runs targeted political ads aimed at throwing corrupt
+              And that super PAC runs targeted political ads aimed at throwing corrupt
               right-wing monsters out of office. Totally legal. The funny part is that
               we're doing exactly what pretty much every other corporation in America is
               doing... We're just being transparent about it.
