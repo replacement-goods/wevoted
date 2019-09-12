@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './subscription.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import theBox from '../../images/theBox.jpg';
-import theBoxSmall from '../../images/theBox-mobile.png';
+import theBoxSmall from '../../images/theBox-mobile.jpg';
 import HalfPageBlock from '../../elements/HalfPageBlock';
 import BigSmallImage from '../../elements/BigSmallImage';
 
