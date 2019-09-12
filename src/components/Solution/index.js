@@ -3,7 +3,7 @@ import styles from './solution.module.scss';
 import InnerContainer from '../../elements/InnerContainer';
 import soap from '../../images/soap-bar.jpg';
 import pin from '../../images/pin.jpg';
-import pinSmall from '../../images/pin-small.png';
+import pinSmall from '../../images/pin-small.jpg';
 import HalfPageBlock from '../../elements/HalfPageBlock';
 import BigSmallImage from '../../elements/BigSmallImage';
 import { Link } from 'gatsby';
