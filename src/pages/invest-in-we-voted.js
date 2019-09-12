@@ -73,6 +73,13 @@ const InvestPage = () => {
               tabindex="-1"
               value=""
             />
+            <input
+              type="checkbox"
+              value="1"
+              name="group[4339][1]"
+              id="mce-group[4339]-4339-0"
+              checked
+            />
           </div>
         </form>
       </BasicPage>
