@@ -5,7 +5,7 @@
   border: none;
   outline: none;
   margin: 0 auto;
-  padding: 0 42px;
+  padding: 0 22px;
   display: inline-block;
   width: auto;
   border-radius: 26px;
@@ -21,6 +21,7 @@
 
   @media screen and (min-width: $break-medium) {
     font-size: 20px;
+    padding: 0 42px;
   }
 
   &.withShadow {
