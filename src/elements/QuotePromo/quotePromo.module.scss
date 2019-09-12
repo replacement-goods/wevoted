@@ -10,13 +10,18 @@
   }
 
   blockquote {
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 1.43;
+    line-height: 30px;
     color: $black-blue;
     width: calc(100% - 40px);
     max-width: 750px;
     margin: 0 auto;
+  }
+
+  @media screen and (min-width: $break-medium) {
+    font-size: 28px;
+    line-height: 1.43;
   }
 }
 
