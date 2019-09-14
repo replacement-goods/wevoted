@@ -62,8 +62,8 @@ function SEO({ description, lang, meta, title }) {
           content: `summary`,
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          name: `twitter:site`,
+          content: '@wevotedofficial',
         },
         {
           name: `twitter:title`,
@@ -76,7 +76,11 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:image`,
           content: logo,
-        }
+        },
+        {
+          name: `twitter:image:alt`,
+          content: title,
+        },
       ].concat(meta)}
     >
       <link rel="stylesheet" href="https://use.typekit.net/bvu8gcl.css" />
