@@ -75,7 +75,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: logo,
+          content: `https://www.wevoted.com${logo}`,
         },
         {
           name: `twitter:image:alt`,
