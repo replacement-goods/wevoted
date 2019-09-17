@@ -84,6 +84,7 @@ function SEO({ description, lang, meta, title }) {
       ].concat(meta)}
     >
       <link rel="stylesheet" href="https://use.typekit.net/bvu8gcl.css" />
+      <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=web_widget/replacementgoods.zendesk.com"></script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140098299-1"></script>
       <script>{`
         window.dataLayer = window.dataLayer || [];
