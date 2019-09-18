@@ -55,7 +55,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: logo,
+          content: `https://www.wevoted.com${logo}`,
         },
         {
           name: `twitter:card`,
