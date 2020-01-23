@@ -13,7 +13,7 @@ import VideoPlayer from '../VideoPlayer';
 
 const Intro = ({ withProductImage = false }) => {
   return (
-    <div className={classnames(styles.introSection, withProductImage && styles.whiteBg)}>
+    <div className={styles.introSection}>
       <Link to="/">
         <img alt="We Voted" className={styles.logoMobile} src={logoImage} />
         <img alt="We Voted" className={styles.logoDesktop} src={logoLarge} />

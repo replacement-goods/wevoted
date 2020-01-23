@@ -24,7 +24,7 @@ class IndexPage extends Component {
     return (
       <Layout>
         <SEO title="We Voted to Unseat Terrible Right Wing Politicians" />
-        <Intro withProductImage={true} />
+        <Intro withProductImage={false} />
       </Layout>
     );
   }

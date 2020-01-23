@@ -3,17 +3,13 @@
 .introSection {
   @include grayscale;
   position: relative;
-  background: $light-grey;
+  background: $white;
   color: $black-blue;
-  padding-top: 20px;
+  padding-top: 40vh;
 
   /** remove when press secton comes back **/
   @media screen and (min-width: $break-medium) {
     padding-bottom: 60px;
-  }
-
-  &.whiteBg {
-    background: $white;
   }
 }
 
@@ -21,20 +17,12 @@
   display: block;
   margin: 0 auto;
   max-width: 127px;
-
-  @media screen and (min-width: $break-medium) {
-    display: none;
-  }
 }
 
 .logoDesktop {
   display: none;
-  margin: 0 0 0 30px;
+  margin: 0 auto;
   max-width: 130px;
-
-  @media screen and (min-width: $break-medium) {
-    display: block;
-  }
 }
 
 .textContainer {
